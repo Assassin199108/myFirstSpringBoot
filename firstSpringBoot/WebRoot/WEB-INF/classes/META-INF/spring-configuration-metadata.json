@@ -1,0 +1,19 @@
+{
+  "groups": [{
+    "name": "author",
+    "type": "com.spring.web.ch6.config.AuthorSettings",
+    "sourceType": "com.spring.web.ch6.config.AuthorSettings"
+  }],
+  "properties": [
+    {
+      "name": "author.age",
+      "type": "java.lang.Long",
+      "sourceType": "com.spring.web.ch6.config.AuthorSettings"
+    },
+    {
+      "name": "author.name",
+      "type": "java.lang.String",
+      "sourceType": "com.spring.web.ch6.config.AuthorSettings"
+    }
+  ]
+}

@@ -27,3 +27,6 @@ day10一：Spring Boot
         @ConditionOnSingleCandidate:当指定Bean在容器中有一个，或者虽然有多个但是指定首选的Bean
         @ConditionOnWebApplication:当前项目是Web项目的条件下
         
+day11一：
+        Thymeleaf的自动配置类
+        ThymeleafProperties

@@ -27,6 +27,61 @@ day10一：Spring Boot
         @ConditionOnSingleCandidate:当指定Bean在容器中有一个，或者虽然有多个但是指定首选的Bean
         @ConditionOnWebApplication:当前项目是Web项目的条件下
         
-day11一：
+day11一：1:
         Thymeleaf的自动配置类
         ThymeleafProperties
+        2:
+        WebMVC自配配置类:
+            WebMvcProperties
+        自动装配Bean类:
+            WebMvcAutoConfiguration
+            a:ContentNegotiatingViewResolver
+            MVC特俗的ViewResolver,并非自己处理view，而是代理给不同的ViewResolver处理
+            b:BeanNameViewResolver
+            
+            c:InternalResourceViewResolver
+            
+        3:静态资源
+            "classpath:/META-INF/resources/", "classpath:/resources/",
+            "classpath:/static/", "classpath:/public/"
+            
+        4:接管Spring Boot的Web配置
+        注解Configuration并且继承WebMvcConfigurerAdapter
+        会自己配置的与Spring Boot配置同时有效
+        
+        5:注册Servlet Filter Listener
+        注册Bean
+            a:ServletRegistrationBean
+            b:FilterRegistrationBean
+            c:ServletListenerRegistrationBean
+            
+        
+        
+day12一：
+        @{}是引用Web静态资源
+        
+        Tomcat的配置
+        自动配置类:
+            ServerProperties
+            
+        代码配置Tomcat 等server容器
+        可以注册一个实现了EmbeddedServletContainerCustomizer接口的Bean;
+        --EmbeddedServletContainerCustomizer
+               |
+               |--TomcatEmbeddedServletContainerFactory
+               |--JettyEmbeddedServletContainerFactory
+               |--UndertowEmbeddedServletContainerFactory
+               
+        SSL 的安全Https的配置
+        server.ssl.key-store=
+        server.ssl.key-store-password=
+        server.ssl.key-store-type=JKS
+        
+        对WebSocket支持
+        源码路径:org.springframework.boot.autoconfigure.websocket
+        
+        广播式
+        重写方法配置WebSocket，步骤：
+        1：配置类@configuration
+        2：使用EnableWebSocketMessageBroker开启websocket支持
+        3：继承AbstractWebSocketMessageBrokerConfigurer

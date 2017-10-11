@@ -15,5 +15,6 @@
       "type": "java.lang.String",
       "sourceType": "com.spring.web.ch6.config.AuthorSettings"
     }
-  ]
+  ],
+  "hints": []
 }

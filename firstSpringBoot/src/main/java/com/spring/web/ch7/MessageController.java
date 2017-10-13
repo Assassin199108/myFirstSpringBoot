@@ -2,6 +2,7 @@ package com.spring.web.ch7;
 
 import com.spring.entity.ch7.WangweiMessage;
 import com.spring.entity.ch7.WangweiResponse;
+import org.springframework.boot.SpringApplication;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.stereotype.Controller;
@@ -19,4 +20,7 @@ public class MessageController {
         return new WangweiResponse("Welcome, "+ message.getName()+"!");
     }
 
+    public static void main(String[] args){
+        SpringApplication.run(MessageController.class,args);
+    }
 }

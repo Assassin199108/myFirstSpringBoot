@@ -93,3 +93,90 @@ day13 一：
         使用声明式模板+数据绑定，可以只通过前端技术就实现动态页面
         下载地址：https://angularjs.org/
         
+        
+day 14 
+
+        一：
+        Docker镜像的搜索
+        https://hub.docker.com/search/?isAutomated=0&isOfficial=0&page=1&pullCount=0&q=&starCount=0
+        or
+        docker search 镜像名称
+        docker api(各种操作)
+            docker pull **(下载镜像)
+            docker images (镜像列表)
+            docker rmi image-id(删除镜像)
+            docker run --name container -name -d image-name (运行镜像)
+            docker ps =a (查看运行和停止状态的容器)
+            docker stop container-name/container-id
+            docker start container-name/container-id
+            docker run -d -p 6378:6379 --name port-redis redis
+            docker rm container-id (删除容器)
+            docker rm $(docker ps -a -q) (删除所有容器)
+            docker logs container-name/container-id (查看当前容器日志)
+            docker exec -it container-id/container-name bash 登录容器
+            
+        二：Spring Data JPA
+            在Spring环境中，可通过@EnableJpaRepositories注解开启Spring Data JPA的支持
+            @EnableJpaRepositories(value = "扫描数据访问层所在报下的数据访问接口的定义")
+            ---
+             |--Repository
+                    |
+                    |--CrudRepository(增删改查)
+                            |
+                            |--PagingAndSortingRepository(分页)
+                                        |
+                                        |--JpaRepository(jpa)
+                                        
+             JPA接口定义中的模糊方法查询名称与参数名称
+             关键子：
+             And
+             Or
+             Is,Equals
+             Betweem
+             LessThan
+             LessThanEqual
+             GreaterThan
+             GreaterThanEqual
+             After
+             Before
+             IsNull
+             IsNotNull,NotNull
+             Like
+             NotLike
+             StartingWith
+             EndingWith
+             Containing
+             OrderBy
+             Not
+             In
+             NotIn
+             True
+             False
+             IgnoreCase
+             
+                b、限制结果集:top和first关键字
+                c、使用@NamedQuery查询注解在实体类上的
+                d、使用@Query查询 注解接口定义的方法上
+                e、支持@Modifying 和 @Query注解组合时间更新查询
+                f、Spring提供JPA基于准则的查询方式Criteria查询的规范（Specification）接口更方便的构造准则查询
+                g、排序与分页的支持  SpringDataJpa提供了Sort类以及Page接口和Pageable接口
+                
+        三：Spring Boot的支持
+            配置文件 DataSourceProperties
+            Bean自动加载文件 DataSourceAutoConfiguration
+            
+            自动开启事务的支持
+            @EnableTransactionManagement
+            配置了
+            jdbcTemplate
+            放置在类路径下的schema.sql会自动初始化表结构
+            放置在类路径下的data.sql会自动填充表数据
+            
+        四Spring Boot对Jpa的支持
+            配置文件 JpaProperties
+            bean自动加载文件 HibernateJpaAutoConfiguration
+            
+        五Spring Boot对Spring Data JPA的支持
+            依赖spring-boot-starter-data-jpa
+            定义DataSource、实体类和数据访问层
+            bean自动加载文件  JpaRepositoriesAutoConfiguration和JpaRepositoriesAutoConfigureRegistrar

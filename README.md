@@ -106,6 +106,7 @@ day 14
             docker images (镜像列表)
             docker rmi image-id(删除镜像)
             docker run --name container -name -d image-name (运行镜像)
+            docker run -d -p 6378:6379 --name ** image
             docker ps =a (查看运行和停止状态的容器)
             docker stop container-name/container-id
             docker start container-name/container-id
@@ -180,3 +181,10 @@ day 14
             依赖spring-boot-starter-data-jpa
             定义DataSource、实体类和数据访问层
             bean自动加载文件  JpaRepositoriesAutoConfiguration和JpaRepositoriesAutoConfigureRegistrar
+            
+day 15
+        一：Spring Boot 运行在第三方Tomcat
+            去除內嵌tomcat
+            增加Servlet依赖
+            继承 SpringBootServletInitializer ，Servlet3.0 重新Servlet onstartUp 
+            重新配置WebMVC配置文件

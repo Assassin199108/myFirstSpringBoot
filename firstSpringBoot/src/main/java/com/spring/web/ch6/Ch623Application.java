@@ -17,7 +17,7 @@ public class Ch623Application {
     @Autowired
     private AuthorSettings authorSettings;
 
-    @RequestMapping("/")
+    @RequestMapping("/ch623")
     public String index(){
         return "author name is: "+authorSettings.getName()+" and author age is:"+authorSettings.getAge();
     }

@@ -188,3 +188,10 @@ day 15
             增加Servlet依赖
             继承 SpringBootServletInitializer ，Servlet3.0 重新Servlet onstartUp 
             重新配置WebMVC配置文件
+            
+day 16 
+        一、完成Spring boot +Spring data jpa + 自定义第三方Tomcat整合
+            因包未扫描到实体类
+            SpringBoot默认扫描包没包括自己的，自己重新定义LocalContainerEntityManagerFactoryBean
+            并开启EnableJpaRepositories 扫描dao层
+        二、因 公司 强制加班，今天未能好好学习，晚安吧，明天会更好

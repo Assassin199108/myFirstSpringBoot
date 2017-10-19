@@ -17,7 +17,7 @@ import java.util.List;
 @RestController
 public class DataController {
 
-    @Autowired(required = false)
+    @Autowired
     PersonRepository personRepository;
 
     @RequestMapping("/save")

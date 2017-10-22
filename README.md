@@ -195,3 +195,11 @@ day 16
             SpringBoot默认扫描包没包括自己的，自己重新定义LocalContainerEntityManagerFactoryBean
             并开启EnableJpaRepositories 扫描dao层
         二、因 公司 强制加班，今天未能好好学习，晚安吧，明天会更好
+        
+day 17
+       
+        一、
+        
+            JpaRepositoryFactoryBean 的作用
+           * 1:我们会获得一个RepositoryFactory
+           * 2:将会注册我们自定义的Repositiry的实现

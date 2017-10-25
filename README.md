@@ -203,3 +203,17 @@ day 17
             JpaRepositoryFactoryBean 的作用
            * 1:我们会获得一个RepositoryFactory
            * 2:将会注册我们自定义的Repositiry的实现
+           
+day18
+
+        一、
+            Spring Data REST
+            可以将Repository自动输出为REST资源
+            自定义配置类：RepositoryRestMvcConfiguration
+            自定义参数配置类 RepositoryRestConfiguration 在上面的config方法中
+            他们的子类SpringBootRepositoryRestMvcConfiguration将此方法加入到SpringBoot自动配置类中
+            RepositoryRestMvcAutoConfiguration讲bean交由到Spring ioc容器管理
+            
+            我们可以通过继承RepositoryRestMvcConfiguration此类或者直接在直接的配置类上@Import(RepositoryRestMvcAutoConfiguration讲bean交由到Spring.class)配置类
+            
+            在application.properties配置"spring.data.rest"为前缀配置属性来设置RepositoryResrConfiguration

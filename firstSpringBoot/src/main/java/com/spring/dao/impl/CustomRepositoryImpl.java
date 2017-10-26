@@ -1,7 +1,7 @@
-package com.spring.dao.ch8.impl;
+package com.spring.dao.impl;
 
 import com.spring.dao.CustomerSpecs;
-import com.spring.dao.ch8.CustomRepository;
+import com.spring.dao.CustomRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.jpa.repository.support.SimpleJpaRepository;
 import javax.persistence.EntityManager;

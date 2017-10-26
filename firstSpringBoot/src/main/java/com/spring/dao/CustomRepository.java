@@ -1,4 +1,4 @@
-package com.spring.dao.ch8;
+package com.spring.dao;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -11,7 +11,7 @@ import java.io.Serializable;
 /**
  * Created by wangwei on 2017/10/22.
  * 此例中的接口继承了JpaRepository,让我们具备了JpaRepository所提供的方法；继承了JpaSpecificationExcutor,
- * 让我们举杯使用Specification的能力
+ * 让我们具备使用Specification的能力
  */
 @NoRepositoryBean
 public interface CustomRepository<T ,ID extends Serializable> extends JpaRepository<T,ID>,JpaSpecificationExecutor<T>{

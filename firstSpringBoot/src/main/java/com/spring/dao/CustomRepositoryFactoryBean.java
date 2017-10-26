@@ -1,8 +1,6 @@
 package com.spring.dao;
 
-import com.spring.dao.ch8.CustomRepository;
-import com.spring.dao.ch8.impl.CustomRepositoryImpl;
-import com.sun.xml.internal.bind.v2.model.core.ID;
+import com.spring.dao.impl.CustomRepositoryImpl;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.support.JpaRepositoryFactory;
 import org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean;

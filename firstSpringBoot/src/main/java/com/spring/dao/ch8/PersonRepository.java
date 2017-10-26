@@ -4,6 +4,7 @@ import com.spring.entity.ch8.Person;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
+import org.springframework.data.rest.core.annotation.RestResource;
 
 import java.util.List;
 
@@ -26,4 +27,6 @@ public interface PersonRepository extends JpaRepository<Person,Long> {
     //使用@NamedQuery查询，请注意我们在实体类中做的@NamedQuery定义
     Person withNameAndAddressNamedQuery(String name,String address);
 
+    @RestResource(path = "nameStartsWith",rel = "nameStartsWith")
+    Person findByNameStartsWith(@Param("name")String name);
 }

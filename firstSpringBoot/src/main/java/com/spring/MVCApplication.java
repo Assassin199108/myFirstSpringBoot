@@ -1,10 +1,9 @@
-package com.spring.config.mvc;
+package com.spring;
 
 import com.spring.dao.CustomRepositoryFactoryBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
 import org.springframework.boot.autoconfigure.data.rest.RepositoryRestMvcAutoConfiguration;
 import org.springframework.boot.autoconfigure.orm.jpa.JpaProperties;
 import org.springframework.boot.builder.SpringApplicationBuilder;
@@ -25,11 +24,10 @@ import java.util.Map;
 @Primary
 @SpringBootApplication
 @Configuration
-@ComponentScan(basePackages = {"com.spring.dao","com.spring.entity","com.spring.web"})
+@ComponentScan(basePackages = {"com.spring.dao","com.spring.entity","com.spring.web","com.spring.service"})
 @EnableAutoConfiguration
 //对自定义的Repository生效
 @EnableJpaRepositories(basePackages = {"com.spring.dao"},entityManagerFactoryRef = "entityManagerFactory2",repositoryFactoryBeanClass = CustomRepositoryFactoryBean.class)
-@EnableTransactionManagement
 @Import({RepositoryRestMvcAutoConfiguration.class})
 public class MVCApplication extends SpringBootServletInitializer {
 

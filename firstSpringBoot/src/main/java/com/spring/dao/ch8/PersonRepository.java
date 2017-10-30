@@ -4,6 +4,7 @@ import com.spring.entity.ch8.Person;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
+import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import org.springframework.data.rest.core.annotation.RestResource;
 
 import java.util.List;
@@ -12,6 +13,8 @@ import java.util.List;
  * Created by wangwei on 2017/10/17.
  * Person的dao层JPA接口
  */
+//定制节点路径
+@RepositoryRestResource(path = "/people")
 public interface PersonRepository extends JpaRepository<Person,Long> {
 
     //使用方法名查询,结束一个name参数，返回值为列表
@@ -27,6 +30,6 @@ public interface PersonRepository extends JpaRepository<Person,Long> {
     //使用@NamedQuery查询，请注意我们在实体类中做的@NamedQuery定义
     Person withNameAndAddressNamedQuery(String name,String address);
 
-    @RestResource(path = "nameStartsWith",rel = "nameStartsWith")
+    @RestResource(path = "/nameStartsWith",rel = "/nameStartsWith")
     Person findByNameStartsWith(@Param("name")String name);
 }

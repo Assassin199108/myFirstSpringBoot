@@ -217,3 +217,54 @@ day18
             我们可以通过继承RepositoryRestMvcConfiguration此类或者直接在直接的配置类上@Import(RepositoryRestMvcAutoConfiguration讲bean交由到Spring.class)配置类
             
             在application.properties配置"spring.data.rest"为前缀配置属性来设置RepositoryResrConfiguration
+            
+day 19
+
+        一、Spring事务管理机制
+            提供了PlantFormTransactionManager接口
+            不同的数据访问技术提供不同的接口实现
+            
+            数据访问技术                          实现
+                JDBC                DataSourceTransactionManager
+                JPA                 JpaTransactionManager
+                Hibernate           HibernateTransactionManager
+                JDO                 JdoTransactionManager
+                分布式事务           JtaTransactionManager
+                
+        二、实现 声明式事务
+            @Transactional注解 基于Aop的实现操作
+            在配置类上开启声明式事务@EnableTransactionManagement 自动扫描@Transactional注解
+            事务的属性
+            a、propagationtion
+            定义了事务的生命周期，选项
+            1:REQUIRED(默认):方法A没有事务创建事务，调用方法B的时候，B使用相同事务，B异常，整个数据回滚
+            2:REQUIRES_NEW:对于方法A和B，在方法调用的时候无论是否有事务，都开启新事务，方法B回滚不会使方法A回滚
+            3:NESTED:和REQUIRES_NEW类似，但支持JDBC，不支持JPA或Hibernate
+            4:SUPPORTS:方法调用有事务就用事务，没就不用
+            5:NOT_SUPPORTED:强制方法不在事务中执行，若有事务，则方法调用到结束阶段事务都将会被挂起
+            6:NEVER:强制方法不在事务中执行，若有事务则抛出异常
+            7:MANDATORY:强制方法在事务中执行，若无事务则抛出异常
+            
+            b、isolation
+            觉得事务的完整性,处理在多食物对相同数据下的处理机制，主要有一下隔离级别
+            1:READ_UNCOMMITTED:对于A事务修改了一条记录单没有提及事务，在B事务可以读取到修改后的记录。可导致脏读，不可重复读及幻读
+            2:READ_COMMITTED:只有A事务修改记录并提及事务后，B事务才可以读取到提交后的记录；阻止脏读，但可能导致不可重复读和幻读
+            3:REPEATABLE_READ:不仅能实现READ_COMMITTED的功能，还阻止当A事务读取了一条记录，B事务将不允许修改这条记录;阻止脏读和不可重复读，但可出现幻读
+            4:SERIALIZABLE:此级别下事务是顺序执行的，可以避免上述级别的缺陷，但开销较大
+            5:DEFAULT(默认):ORACLE、SQL Server是READ_COMMITED;Mysql是REPEATABLE_READ
+            
+            c、timeout
+            指事务过期时间，默认为当前数据库事务过期时间
+            
+            d、readOnly
+            指定当前事务是否是只读事务
+            
+            e、rollbackFor
+            指定哪个或者哪些异常可以引起事务回滚
+            
+            f、noRollbackFor
+            指定哪个或哪些异常不可以引起回滚事务
+            
+            Spring Boot专门用于配置的事务类TransactionAutoConfiguration
+            
+            

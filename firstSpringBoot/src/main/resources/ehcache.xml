@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd">
+
+    <!--
+ 5         磁盘存储:将缓存中暂时不使用的对象,转移到硬盘,类似于Windows系统的虚拟内存
+ 6         path:指定在硬盘上存储对象的路径
+ 7      -->
+    <diskStore path="/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/src/main/resources"/>
+
+    <!--
+12         defaultCache:默认的缓存配置信息,如果不加特殊说明,则所有对象按照此配置项处理
+
+13         maxElementsInMemory:设置了缓存的上限,最多存储多少个记录对象
+14         eternal:代表对象是否永不过期
+15         timeToIdleSeconds:最大的发呆时间
+16         timeToLiveSeconds:最大的存活时间
+17         overflowToDisk:是否允许对象被写入到磁盘
+
+            maxElementsOnDisk:硬盘最大缓存个数
+            diskPersistent：是否缓存虚拟机重启期数
+            diskExpiryThreadIntervalSeconds：磁盘失效线程运行时间间隔，默认是120秒
+            clearOnFlush：内存数量最大时是否清除。
+
+            diskSpoolBufferSizeMB：当往磁盘上写入缓存信息时缓冲区的大小，单位是MB，默认是30
+            transactionalMode:事务模式 默认 off 使ehcache作为JTA事务的参与者:xa
+            overflowToOffHeap：boolean类型，默认为false。表示是否允许Cache使用非堆内存进行存储，非堆内存是不受Java GC影响的。该属性只对企业版Ehcache有用
+
+            copyOnRead：当指定该属性为true时，我们在从Cache中读数据时取到的是Cache中对应元素的一个copy副本，而不是对应的一个引用。默认为false。
+            copyOnWrite：当指定该属性为true时，我们在往Cache中写入数据时用的是原对象的一个copy副本，而不是对应的一个引用。默认为false。
+
+            maxEntriesLocalDisk：指定允许在硬盘上存放元素的最大数量，0表示不限制。这个属性我们也可以在运行期通过CacheConfiguration来更改
+            maxEntriesLocalHeap：指定允许在内存中存放元素的最大数量，0表示不限制。这个属性也可以在运行期动态修改。
+
+            maxMemoryOffHeap:最大的非堆内存大小
+            memoryStoreEvictionPolicy：当内存里面的元素数量或大小达到指定的限制后将采用的驱除策略。
+                    默认是LRU（最近最少使用），可选值还有LFU（最不常使用）和FIFO（先进先出
+18      -->
+    <defaultCache maxElementsInMemory="10000" eternal="false" timeToIdleSeconds="120" timeToLiveSeconds="120"
+                  overflowToDisk="true" maxElementsOnDisk="50000" diskPersistent="false"
+                  diskExpiryThreadIntervalSeconds="120" clearOnFlush="true" diskAccessStripes="1"
+                  diskSpoolBufferSizeMB="30" transactionalMode="off" statistics="false"
+                  cacheLoaderTimeoutMillis="0" overflowToOffHeap="false" copyOnRead="false"
+                  copyOnWrite="false" maxEntriesLocalDisk="50000" maxEntriesLocalHeap="10000"
+                  memoryStoreEvictionPolicy="LRU"
+    />
+
+    <!--
+23         cache:为指定名称的对象进行缓存的特殊配置
+24         name:指定对象的完整名
+25      -->
+    <cache name="people" maxElementsInMemory="1000"/>
+
+</ehcache>

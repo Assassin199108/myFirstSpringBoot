@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.orm.jpa.JpaProperties;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.context.web.SpringBootServletInitializer;
 import org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder;
+import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.*;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
@@ -29,6 +30,8 @@ import java.util.Map;
 //对自定义的Repository生效
 @EnableJpaRepositories(basePackages = {"com.spring.dao"},entityManagerFactoryRef = "entityManagerFactory2",repositoryFactoryBeanClass = CustomRepositoryFactoryBean.class)
 @Import({RepositoryRestMvcAutoConfiguration.class})
+//开启缓存注解
+@EnableCaching
 public class MVCApplication extends SpringBootServletInitializer {
 
     @Override

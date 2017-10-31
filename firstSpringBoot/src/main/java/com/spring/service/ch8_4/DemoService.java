@@ -11,4 +11,11 @@ public interface DemoService {
 
     Person savePersonWithOutRollBack(Person person);
 
+    Person save(Person person);
+
+    void remove(Long id);
+
+    Person findOne(Person person);
+
+    Person update(Person person);
 }

@@ -268,3 +268,73 @@ day 19
             Spring Boot专门用于配置的事务类TransactionAutoConfiguration
             
             
+day 20
+    
+        一：缓存Cache
+        Spring定义了CacheManager 和 Cache接口用来统一不同的缓存技术
+        CacheManager：spring提供的各种缓存技术抽象接口
+        1：SimpleCacheManager 使用简单的Collection来存储缓存，主要用来测试用途
+        2：ConcurrentMapCacheManager：使用ConcurrentMap来存储缓存
+        3：NoOpCacheManager：仅测试用途，不会实际存储缓存
+        4：EhCacheCacheManager：使用EhCacheCache作为缓存技术
+        5：GuavaCacheManager：使用Goole Guava的GuavaCache作为缓存技术
+        6：HazelcastCacheManager：使用Hazelcast作为缓存技术
+        7：JCacheCacheManager：支持JCache(JSR-107)标准的实现作为缓存技术
+        8：RedisCacheManager： 使用Redis作为缓存技术
+        
+        二：声明式缓存注解(AOP)
+        @Cacheable：在方法执行前Spring查看缓存中是否有数据，有数据，则返回缓存数据，没有将返回值放入缓存
+        @CachePut：无论怎样，都会讲方法的返回值放到缓存中。@CachePut的属性与@Cacheable保持一致
+        @CacheEvict：将一条或多条数据从缓存中删除
+        @Caching：可以通过@Caching注解组合多个注解策略在一个方法上
+        
+        三：开启声明式缓存
+        @EnableCaching
+        
+        四：Spring Boot 支持
+        关键Bean：CacheManager——自动配置类放在org.springframework.boot.autocinfigure.cache
+        例：EhCacheCacheConfiguration(使用EhCache)
+        配置文件类：CacheProperties
+        默认使用的是SimpleCacheConfiguration，即使用ConcurrentMapCacheManager
+        需要自己开启配置缓存
+            
+        五：tips
+        如果没有指定key，则方法参数作为key保存到缓存中
+        
+        六：切换缓存技术
+            1:EhCache
+                a:导包 net.sf.ehcache
+                b:配置文件ehcache.xml放在类路径下，spring boot会自动扫描
+                c:spring boot 自动创建EhCacheCacheManager bean
+            2:Guava
+                a:导包 guava
+                b:spring boot 自动创建GuavaCacheManager
+            3:redis
+                a:导包 spring-boot-starter-redis
+                b:spring boot 自动创建RedisCacheManager以及RedisTemplate的bean
+        
+        七：NOSQL
+            主要有文档存储型(MongoDB)、图片关系存储型(Neo4j)和键值对存储型(Redis)
+            1:MongoDB
+                Spring的支持：Spring Data MongoDB提供如下功能
+                a：Object/Document映射注解支持(类似JPA提供一套Object/Relation映射的注解)
+                    @Document:映射领域对象与MongoDB的一个文档
+                    @Id:映射当前属性是ID
+                    @DbRef：当前属性将参考其他的文档
+                    @Field：为文档的属性定义名称
+                    @Version：将当前属性作为版本
+                b:MongoTemplate(类似JdbcTemplate)
+                    数据访问方法，我们需要为MongoClient以及MongoDbFactory配置数据库连接属性
+                    
+                c:Repository的支持(类似Spring Data JPA的Repository)
+                
+                d:配置类开启@EnableMongoRepositories
+                
+                Spring Boot的支持
+                需要导入包
+                spring-boot-starter-data-mongodb
+                配置文件位于:org.springframework.boot.autoconfiure.mongo
+                2个自动配置类：
+                    MongoAutoConfiguration
+                    MongoDataAutoConfiguration
+                配置文件:MongoProperties

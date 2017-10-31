@@ -14,7 +14,7 @@ import java.util.List;
  * Person的dao层JPA接口
  */
 //定制节点路径
-@RepositoryRestResource(path = "/people")
+@RepositoryRestResource(path = "people")
 public interface PersonRepository extends JpaRepository<Person,Long> {
 
     //使用方法名查询,结束一个name参数，返回值为列表
@@ -30,6 +30,6 @@ public interface PersonRepository extends JpaRepository<Person,Long> {
     //使用@NamedQuery查询，请注意我们在实体类中做的@NamedQuery定义
     Person withNameAndAddressNamedQuery(String name,String address);
 
-    @RestResource(path = "/nameStartsWith",rel = "/nameStartsWith")
+    @RestResource(path = "nameStartsWith",rel = "nameStartsWith")
     Person findByNameStartsWith(@Param("name")String name);
 }

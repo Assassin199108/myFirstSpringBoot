@@ -20396,3 +20396,1181 @@ java.lang.IllegalArgumentException: 王伟虽已经存在，数据不会回滚
 
 2017-10-30 23:01:05.168 DEBUG 40030 --- [http-bio-8081-exec-10] o.s.b.c.web.OrderedRequestContextFilter  : Bound request context to thread: org.apache.catalina.core.ApplicationHttpRequest@11d7c344
 2017-10-30 23:01:05.205 DEBUG 40030 --- [http-bio-8081-exec-10] o.s.b.c.web.OrderedRequestContextFilter  : Cleared thread-bound request context: org.apache.catalina.core.ApplicationHttpRequest@11d7c344
+2017-10-31 21:20:58.885  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] com.spring.MVCApplication                : Starting MVCApplication on wangweideMacBook-Pro.local with PID 17162 (/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/classes started by wangwei in /Users/wangwei/Documents/Tomcat7/bin)
+2017-10-31 21:20:58.943  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] com.spring.MVCApplication                : No active profile set, falling back to default profiles: default
+2017-10-31 21:20:58.945 DEBUG 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.boot.SpringApplication               : Loading source class com.spring.MVCApplication,class org.springframework.boot.context.web.ErrorPageFilter
+2017-10-31 21:20:59.882 DEBUG 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'classpath:/application.properties'
+2017-10-31 21:20:59.884 DEBUG 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.c.c.ConfigFileApplicationListener  : Skipped (empty) config file 'classpath:/application.properties' for profile default
+2017-10-31 21:20:59.896  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c822901: startup date [Tue Oct 31 21:20:59 CST 2017]; root of context hierarchy
+2017-10-31 21:20:59.933 DEBUG 17162 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Bean factory for org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c822901: org.springframework.beans.factory.support.DefaultListableBeanFactory@5c6efb63: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,MVCApplication,errorPageFilter]; root of factory hierarchy
+2017-10-31 21:21:10.212  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7a5c88f8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-31 21:21:10.356  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [class org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$c36ebf16] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-31 21:21:10.526  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration' of type [class org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$$EnhancerBySpringCGLIB$$b7e283ba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-31 21:21:11.299  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cache.CONFIGURATION_PROPERTIES' of type [class org.springframework.boot.autoconfigure.cache.CacheProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-31 21:21:11.318  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.cache.CacheManagerCustomizers' of type [class org.springframework.boot.autoconfigure.cache.CacheManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-31 21:21:11.319  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.cache.SimpleCacheConfiguration' of type [class org.springframework.boot.autoconfigure.cache.SimpleCacheConfiguration$$EnhancerBySpringCGLIB$$597df69b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-31 21:21:11.342  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] trationDelegate$BeanPostProcessorChecker : Bean 'cacheManager' of type [class org.springframework.cache.concurrent.ConcurrentMapCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-31 21:21:11.344  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] trationDelegate$BeanPostProcessorChecker : Bean 'cacheAutoConfigurationValidator' of type [class org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$CacheManagerValidator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-31 21:21:11.409 DEBUG 17162 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@fba8bbd]
+2017-10-31 21:21:11.410 DEBUG 17162 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Using ApplicationEventMulticaster [org.springframework.context.event.SimpleApplicationEventMulticaster@74a3a62c]
+2017-10-31 21:21:11.420  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 11524 ms
+2017-10-31 21:21:12.433 DEBUG 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.c.e.ServletContextInitializerBeans : Added existing Servlet initializer bean 'dispatcherServletRegistration'; order=2147483647, resource=class path resource [org/springframework/boot/autoconfigure/web/DispatcherServletAutoConfiguration$DispatcherServletConfiguration.class]
+2017-10-31 21:21:12.604  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] b.a.w.TomcatWebSocketContainerCustomizer : NonEmbeddedServletContainerFactory detected. Websockets support should be native so this normally is not a problem.
+2017-10-31 21:21:13.820 DEBUG 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.c.e.ServletContextInitializerBeans : Created Filter initializer for bean 'errorPageFilter'; order=-2147483648, resource=null
+2017-10-31 21:21:13.821 DEBUG 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.c.e.ServletContextInitializerBeans : Created Filter initializer for bean 'characterEncodingFilter'; order=-2147483648, resource=class path resource [org/springframework/boot/autoconfigure/web/HttpEncodingAutoConfiguration.class]
+2017-10-31 21:21:13.821 DEBUG 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.c.e.ServletContextInitializerBeans : Created Filter initializer for bean 'hiddenHttpMethodFilter'; order=-10000, resource=class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration.class]
+2017-10-31 21:21:13.821 DEBUG 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.c.e.ServletContextInitializerBeans : Created Filter initializer for bean 'httpPutFormContentFilter'; order=-9900, resource=class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration.class]
+2017-10-31 21:21:13.821 DEBUG 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.c.e.ServletContextInitializerBeans : Created Filter initializer for bean 'requestContextFilter'; order=-105, resource=class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]
+2017-10-31 21:21:13.834  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-31 21:21:13.838  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'errorPageFilter' to: [/*]
+2017-10-31 21:21:13.839  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-31 21:21:13.842  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-31 21:21:13.842  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-31 21:21:13.844  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-31 21:21:16.627  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-31 21:21:16.749  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-31 21:21:17.110  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.11.Final}
+2017-10-31 21:21:17.117  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-31 21:21:17.120  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-31 21:21:18.261  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-10-31 21:21:20.434  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2017-10-31 21:21:20.854  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2017-10-31 21:21:22.098  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2017-10-31 21:21:22.098  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000102: Fetching database metadata
+2017-10-31 21:21:23.441  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000396: Updating schema
+2017-10-31 21:21:30.136  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000261: Table found: SURF.PERSON
+2017-10-31 21:21:30.137  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000037: Columns: [address, name, id, age]
+2017-10-31 21:21:30.137  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000108: Foreign keys: []
+2017-10-31 21:21:30.137  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000126: Indexes: [sys_c006997]
+2017-10-31 21:21:30.138  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000232: Schema update complete
+2017-10-31 21:21:30.970  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from URL [file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/classes/data.sql]
+2017-10-31 21:21:30.997  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from URL [file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/classes/data.sql] in 26 ms.
+2017-10-31 21:21:32.416  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'clientInboundChannelExecutor'
+2017-10-31 21:21:32.432  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'clientOutboundChannelExecutor'
+2017-10-31 21:21:32.471  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService  'messageBrokerTaskScheduler'
+2017-10-31 21:21:32.630  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.w.s.s.s.WebSocketHandlerMapping      : Mapped URL path [/endpointTest/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+2017-10-31 21:21:32.683  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'brokerChannelExecutor'
+2017-10-31 21:21:33.048  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] .WebSocketAnnotationMethodMessageHandler : Mapped "{[/welcome],messageType=[MESSAGE]}" onto public com.spring.entity.ch7.WangweiResponse com.spring.web.ch7.MessageController.say(com.spring.entity.ch7.WangweiMessage) throws java.lang.Exception
+2017-10-31 21:21:33.573  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c822901: startup date [Tue Oct 31 21:20:59 CST 2017]; root of context hierarchy
+2017-10-31 21:21:33.791  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto java.lang.String com.spring.web.ch5.Ch522Application.index()
+2017-10-31 21:21:33.794  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/book]}" onto java.lang.String com.spring.web.ch5.Ch522Application.bookName()
+2017-10-31 21:21:33.798  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/ch623]}" onto public java.lang.String com.spring.web.ch6.Ch623Application.index()
+2017-10-31 21:21:33.802  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/bootstrap]}" onto public java.lang.String com.spring.web.ch7.Ch72Application.index(org.springframework.ui.Model)
+2017-10-31 21:21:33.808  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/save]}" onto public com.spring.entity.ch8.Person com.spring.web.ch8.DataController.save(java.lang.String,java.lang.String,java.lang.Integer)
+2017-10-31 21:21:33.809  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sort]}" onto public java.util.List<com.spring.entity.ch8.Person> com.spring.web.ch8.DataController.sort()
+2017-10-31 21:21:33.810  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/q4]}" onto public com.spring.entity.ch8.Person com.spring.web.ch8.DataController.q4(java.lang.String,java.lang.String)
+2017-10-31 21:21:33.811  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/page]}" onto public org.springframework.data.domain.Page<com.spring.entity.ch8.Person> com.spring.web.ch8.DataController.page()
+2017-10-31 21:21:33.812  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/q1]}" onto public java.util.List<com.spring.entity.ch8.Person> com.spring.web.ch8.DataController.q1(java.lang.String)
+2017-10-31 21:21:33.812  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/q2]}" onto public com.spring.entity.ch8.Person com.spring.web.ch8.DataController.q2(java.lang.String,java.lang.String)
+2017-10-31 21:21:33.813  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/q3]}" onto public com.spring.entity.ch8.Person com.spring.web.ch8.DataController.q3(java.lang.String,java.lang.String)
+2017-10-31 21:21:33.814  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/auto]}" onto public org.springframework.data.domain.Page<com.spring.entity.ch8.Person> com.spring.web.ch8_2.DataController.auto(com.spring.entity.ch8.Person)
+2017-10-31 21:21:33.817  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/rollback]}" onto public com.spring.entity.ch8.Person com.spring.web.ch8_4.MyController.rollback(com.spring.entity.ch8.Person)
+2017-10-31 21:21:33.817  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/norollback]}" onto public com.spring.entity.ch8.Person com.spring.web.ch8_4.MyController.noRollback(com.spring.entity.ch8.Person)
+2017-10-31 21:21:33.825  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/cache/put]}" onto public com.spring.entity.ch8.Person com.spring.web.ch8_5.CacheController.put(com.spring.entity.ch8.Person)
+2017-10-31 21:21:33.825  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/cache/able]}" onto public com.spring.entity.ch8.Person com.spring.web.ch8_5.CacheController.cacheable(com.spring.entity.ch8.Person)
+2017-10-31 21:21:33.826  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/cache/evit]}" onto public java.lang.String com.spring.web.ch8_5.CacheController.evit(java.lang.Long)
+2017-10-31 21:21:33.836  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-31 21:21:33.836  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-31 21:21:33.871  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/ws] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2017-10-31 21:21:33.906  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-31 21:21:33.906  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-31 21:21:35.876  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-31 21:21:35.888 DEBUG 17162 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@25925acf]
+2017-10-31 21:21:35.895  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2017-10-31 21:21:35.896  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2017-10-31 21:21:35.897  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2017-10-31 21:21:35.897  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2017-10-31 21:21:35.910 DEBUG 17162 --- [RMI TCP Connection(2)-127.0.0.1] utoConfigurationReportLoggingInitializer : 
+
+
+=========================
+AUTO-CONFIGURATION REPORT
+=========================
+
+
+Positive matches:
+-----------------
+
+   AopAutoConfiguration matched
+      - @ConditionalOnClass classes found: org.springframework.context.annotation.EnableAspectJAutoProxy,org.aspectj.lang.annotation.Aspect,org.aspectj.lang.reflect.Advice (OnClassCondition)
+      - matched (OnPropertyCondition)
+
+   AopAutoConfiguration.JdkDynamicAutoProxyConfiguration matched
+      - matched (OnPropertyCondition)
+
+   CacheAutoConfiguration matched
+      - @ConditionalOnClass classes found: org.springframework.cache.CacheManager (OnClassCondition)
+      - @ConditionalOnBean (types: org.springframework.cache.interceptor.CacheAspectSupport; SearchStrategy: all) found the following [cacheInterceptor] @ConditionalOnMissingBean (types: org.springframework.cache.CacheManager,org.springframework.cache.interceptor.CacheResolver; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   CacheAutoConfiguration.CacheManagerJpaDependencyConfiguration matched
+      - @ConditionalOnClass classes found: org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean (OnClassCondition)
+      - @ConditionalOnBean (types: org.springframework.orm.jpa.AbstractEntityManagerFactoryBean; SearchStrategy: all) found the following [&entityManagerFactory2] (OnBeanCondition)
+
+   DataSourceAutoConfiguration matched
+      - @ConditionalOnClass classes found: javax.sql.DataSource,org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType (OnClassCondition)
+
+   DataSourceAutoConfiguration.DataSourceInitializerConfiguration matched
+      - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   DataSourceAutoConfiguration.JdbcTemplateConfiguration matched
+      - existing auto database detected (DataSourceAutoConfiguration.DataSourceAvailableCondition)
+
+   DataSourceAutoConfiguration.JdbcTemplateConfiguration#jdbcTemplate matched
+      - @ConditionalOnMissingBean (types: org.springframework.jdbc.core.JdbcOperations; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   DataSourceAutoConfiguration.JdbcTemplateConfiguration#namedParameterJdbcTemplate matched
+      - @ConditionalOnMissingBean (types: org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   DataSourceAutoConfiguration.NonEmbeddedConfiguration matched
+      - supported DataSource class found (DataSourceAutoConfiguration.NonEmbeddedDataSourceCondition)
+      - @ConditionalOnMissingBean (types: javax.sql.DataSource,javax.sql.XADataSource; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   DataSourcePoolMetadataProvidersConfiguration.TomcatDataSourcePoolMetadataProviderConfiguration matched
+      - @ConditionalOnClass classes found: org.apache.tomcat.jdbc.pool.DataSource (OnClassCondition)
+
+   DataSourceTransactionManagerAutoConfiguration matched
+      - @ConditionalOnClass classes found: org.springframework.jdbc.core.JdbcTemplate,org.springframework.transaction.PlatformTransactionManager (OnClassCondition)
+
+   DataSourceTransactionManagerAutoConfiguration.TransactionManagementConfiguration matched
+      - @ConditionalOnMissingBean (types: org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   DispatcherServletAutoConfiguration matched
+      - @ConditionalOnClass classes found: org.springframework.web.servlet.DispatcherServlet (OnClassCondition)
+      - found web application StandardServletEnvironment (OnWebApplicationCondition)
+
+   DispatcherServletAutoConfiguration.DispatcherServletConfiguration matched
+      - @ConditionalOnClass classes found: javax.servlet.ServletRegistration (OnClassCondition)
+      - no ServletRegistrationBean found (DispatcherServletAutoConfiguration.DefaultDispatcherServletCondition)
+
+   EmbeddedServletContainerAutoConfiguration matched
+      - found web application StandardServletEnvironment (OnWebApplicationCondition)
+
+   EmbeddedServletContainerAutoConfiguration.EmbeddedTomcat matched
+      - @ConditionalOnClass classes found: javax.servlet.Servlet,org.apache.catalina.startup.Tomcat (OnClassCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.boot.context.embedded.EmbeddedServletContainerFactory; SearchStrategy: current) found no beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration matched
+      - @ConditionalOnClass classes found: javax.servlet.Servlet,org.springframework.web.servlet.DispatcherServlet (OnClassCondition)
+      - found web application StandardServletEnvironment (OnWebApplicationCondition)
+
+   ErrorMvcAutoConfiguration#basicErrorController matched
+      - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.web.ErrorController; SearchStrategy: current) found no beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration#errorAttributes matched
+      - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.web.ErrorAttributes; SearchStrategy: current) found no beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration matched
+      - No error template view detected (ErrorMvcAutoConfiguration.ErrorTemplateMissingCondition)
+      - matched (OnPropertyCondition)
+
+   ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration#beanNameViewResolver matched
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.BeanNameViewResolver; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration#defaultErrorView matched
+      - @ConditionalOnMissingBean (names: error; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   HibernateJpaAutoConfiguration matched
+      - @ConditionalOnClass classes found: org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean,org.springframework.transaction.annotation.EnableTransactionManagement,javax.persistence.EntityManager (OnClassCondition)
+      - found HibernateEntityManager class (HibernateJpaAutoConfiguration.HibernateEntityManagerCondition)
+
+   HttpEncodingAutoConfiguration matched
+      - @ConditionalOnClass classes found: org.springframework.web.filter.CharacterEncodingFilter (OnClassCondition)
+      - matched (OnPropertyCondition)
+
+   HttpEncodingAutoConfiguration#characterEncodingFilter matched
+      - @ConditionalOnMissingBean (types: org.springframework.web.filter.CharacterEncodingFilter; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   HttpMessageConvertersAutoConfiguration matched
+      - @ConditionalOnClass classes found: org.springframework.http.converter.HttpMessageConverter (OnClassCondition)
+
+   HttpMessageConvertersAutoConfiguration#messageConverters matched
+      - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.web.HttpMessageConverters; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   HttpMessageConvertersAutoConfiguration.StringHttpMessageConverterConfiguration matched
+      - @ConditionalOnClass classes found: org.springframework.http.converter.StringHttpMessageConverter (OnClassCondition)
+
+   HttpMessageConvertersAutoConfiguration.StringHttpMessageConverterConfiguration#stringHttpMessageConverter matched
+      - @ConditionalOnMissingBean (types: org.springframework.http.converter.StringHttpMessageConverter; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   JacksonAutoConfiguration matched
+      - @ConditionalOnClass classes found: com.fasterxml.jackson.databind.ObjectMapper (OnClassCondition)
+
+   JacksonAutoConfiguration.JacksonObjectMapperBuilderConfiguration matched
+      - @ConditionalOnClass classes found: com.fasterxml.jackson.databind.ObjectMapper,org.springframework.http.converter.json.Jackson2ObjectMapperBuilder (OnClassCondition)
+
+   JacksonAutoConfiguration.JacksonObjectMapperBuilderConfiguration#jacksonObjectMapperBuilder matched
+      - @ConditionalOnMissingBean (types: org.springframework.http.converter.json.Jackson2ObjectMapperBuilder; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   JacksonAutoConfiguration.JacksonObjectMapperConfiguration matched
+      - @ConditionalOnClass classes found: com.fasterxml.jackson.databind.ObjectMapper,org.springframework.http.converter.json.Jackson2ObjectMapperBuilder (OnClassCondition)
+
+   JacksonAutoConfiguration.JacksonObjectMapperConfiguration#jacksonObjectMapper matched
+      - @ConditionalOnMissingBean (types: com.fasterxml.jackson.databind.ObjectMapper; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   JacksonHttpMessageConvertersConfiguration.MappingJackson2HttpMessageConverterConfiguration matched
+      - @ConditionalOnClass classes found: com.fasterxml.jackson.databind.ObjectMapper (OnClassCondition)
+      - matched (OnPropertyCondition)
+      - @ConditionalOnBean (types: com.fasterxml.jackson.databind.ObjectMapper; SearchStrategy: all) found the following [jacksonObjectMapper] (OnBeanCondition)
+
+   JacksonHttpMessageConvertersConfiguration.MappingJackson2HttpMessageConverterConfiguration#mappingJackson2HttpMessageConverter matched
+      - @ConditionalOnMissingBean (types: org.springframework.http.converter.json.MappingJackson2HttpMessageConverter; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   JmxAutoConfiguration matched
+      - @ConditionalOnClass classes found: org.springframework.jmx.export.MBeanExporter (OnClassCondition)
+      - matched (OnPropertyCondition)
+
+   JmxAutoConfiguration#mbeanExporter matched
+      - @ConditionalOnMissingBean (types: org.springframework.jmx.export.MBeanExporter; SearchStrategy: current) found no beans (OnBeanCondition)
+
+   JmxAutoConfiguration#mbeanServer matched
+      - @ConditionalOnMissingBean (types: javax.management.MBeanServer; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   JmxAutoConfiguration#objectNamingStrategy matched
+      - @ConditionalOnMissingBean (types: org.springframework.jmx.export.naming.ObjectNamingStrategy; SearchStrategy: current) found no beans (OnBeanCondition)
+
+   JpaBaseConfiguration#entityManagerFactoryBuilder matched
+      - @ConditionalOnMissingBean (types: org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   JpaBaseConfiguration#jpaVendorAdapter matched
+      - @ConditionalOnMissingBean (types: org.springframework.orm.jpa.JpaVendorAdapter; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   JpaBaseConfiguration#transactionManager matched
+      - @ConditionalOnMissingBean (types: org.springframework.transaction.PlatformTransactionManager; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   JpaBaseConfiguration.JpaWebConfiguration matched
+      - @ConditionalOnClass classes found: org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter (OnClassCondition)
+      - found web application StandardServletEnvironment (OnWebApplicationCondition)
+      - matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor,org.springframework.orm.jpa.support.OpenEntityManagerInViewFilter; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   JtaAutoConfiguration matched
+      - @ConditionalOnClass classes found: javax.transaction.Transaction (OnClassCondition)
+      - matched (OnPropertyCondition)
+
+   MultipartAutoConfiguration matched
+      - @ConditionalOnClass classes found: javax.servlet.Servlet,org.springframework.web.multipart.support.StandardServletMultipartResolver,javax.servlet.MultipartConfigElement (OnClassCondition)
+      - matched (OnPropertyCondition)
+
+   MultipartAutoConfiguration#multipartConfigElement matched
+      - @ConditionalOnMissingBean (types: javax.servlet.MultipartConfigElement; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   MultipartAutoConfiguration#multipartResolver matched
+      - @ConditionalOnMissingBean (types: org.springframework.web.multipart.MultipartResolver; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   PersistenceExceptionTranslationAutoConfiguration matched
+      - @ConditionalOnClass classes found: org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor (OnClassCondition)
+
+   PersistenceExceptionTranslationAutoConfiguration#persistenceExceptionTranslationPostProcessor matched
+      - @ConditionalOnMissingBean (types: org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor; SearchStrategy: all) found no beans (OnBeanCondition)
+      - matched (OnPropertyCondition)
+
+   PropertyPlaceholderAutoConfiguration#propertySourcesPlaceholderConfigurer matched
+      - @ConditionalOnMissingBean (types: org.springframework.context.support.PropertySourcesPlaceholderConfigurer; SearchStrategy: current) found no beans (OnBeanCondition)
+
+   ServerPropertiesAutoConfiguration matched
+      - found web application StandardServletEnvironment (OnWebApplicationCondition)
+
+   ServerPropertiesAutoConfiguration#serverProperties matched
+      - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.web.ServerProperties; SearchStrategy: current) found no beans (OnBeanCondition)
+
+   SimpleCacheConfiguration matched
+      - Automatic cache type (CacheCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.cache.CacheManager; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   SpringDataWebAutoConfiguration matched
+      - @ConditionalOnClass classes found: org.springframework.data.web.PageableHandlerMethodArgumentResolver,org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter (OnClassCondition)
+      - found web application StandardServletEnvironment (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.data.web.PageableHandlerMethodArgumentResolver; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   ThymeleafAutoConfiguration matched
+      - @ConditionalOnClass classes found: org.thymeleaf.spring4.SpringTemplateEngine (OnClassCondition)
+
+   ThymeleafAutoConfiguration.DefaultTemplateResolverConfiguration matched
+      - @ConditionalOnMissingBean (names: defaultTemplateResolver; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   ThymeleafAutoConfiguration.ThymeleafDefaultConfiguration matched
+      - @ConditionalOnMissingBean (types: org.thymeleaf.spring4.SpringTemplateEngine; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   ThymeleafAutoConfiguration.ThymeleafResourceHandlingConfig matched
+      - found web application StandardServletEnvironment (OnWebApplicationCondition)
+
+   ThymeleafAutoConfiguration.ThymeleafViewResolverConfiguration matched
+      - @ConditionalOnClass classes found: javax.servlet.Servlet (OnClassCondition)
+      - found web application StandardServletEnvironment (OnWebApplicationCondition)
+
+   ThymeleafAutoConfiguration.ThymeleafViewResolverConfiguration#thymeleafViewResolver matched
+      - @ConditionalOnMissingBean (names: thymeleafViewResolver; SearchStrategy: all) found no beans (OnBeanCondition)
+      - matched (OnPropertyCondition)
+
+   ThymeleafAutoConfiguration.ThymeleafWebLayoutConfiguration matched
+      - @ConditionalOnClass classes found: nz.net.ultraq.thymeleaf.LayoutDialect (OnClassCondition)
+
+   ThymeleafAutoConfiguration.ThymeleafWebLayoutConfiguration#layoutDialect matched
+      - @ConditionalOnMissingBean (types: nz.net.ultraq.thymeleaf.LayoutDialect; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   TransactionAutoConfiguration matched
+      - @ConditionalOnClass classes found: org.springframework.transaction.support.TransactionTemplate,org.springframework.transaction.PlatformTransactionManager (OnClassCondition)
+      - @ConditionalOnSingleCandidate (types: org.springframework.transaction.PlatformTransactionManager; SearchStrategy: all) found a primary candidate amongst the following [transactionManager] (OnBeanCondition)
+
+   TransactionAutoConfiguration#transactionTemplate matched
+      - @ConditionalOnMissingBean (types: org.springframework.transaction.support.TransactionTemplate; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration matched
+      - @ConditionalOnClass classes found: javax.servlet.Servlet,org.springframework.web.servlet.DispatcherServlet,org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter (OnClassCondition)
+      - found web application StandardServletEnvironment (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration#hiddenHttpMethodFilter matched
+      - @ConditionalOnMissingBean (types: org.springframework.web.filter.HiddenHttpMethodFilter; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration#httpPutFormContentFilter matched
+      - @ConditionalOnMissingBean (types: org.springframework.web.filter.HttpPutFormContentFilter; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#defaultViewResolver matched
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.InternalResourceViewResolver; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#requestContextFilter matched
+      - @ConditionalOnMissingBean (types: org.springframework.web.context.request.RequestContextListener,org.springframework.web.filter.RequestContextFilter; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#viewResolver matched
+      - @ConditionalOnBean (types: org.springframework.web.servlet.ViewResolver; SearchStrategy: all) found the following [beanNameViewResolver, mvcViewResolver, defaultViewResolver] @ConditionalOnMissingBean (names: viewResolver; types: org.springframework.web.servlet.view.ContentNegotiatingViewResolver; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   WebSocketAutoConfiguration matched
+      - @ConditionalOnClass classes found: javax.servlet.Servlet,javax.websocket.server.ServerContainer (OnClassCondition)
+      - found web application StandardServletEnvironment (OnWebApplicationCondition)
+
+   WebSocketAutoConfiguration.TomcatWebSocketConfiguration matched
+      - @ConditionalOnClass classes found: org.apache.catalina.startup.Tomcat,org.apache.tomcat.websocket.server.WsSci (OnClassCondition)
+
+   WebSocketAutoConfiguration.TomcatWebSocketConfiguration#websocketContainerCustomizer matched
+      - Required JVM version 1.7 or newer found 1.8 (OnJavaCondition)
+      - @ConditionalOnMissingBean (names: websocketContainerCustomizer; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   WebSocketMessagingAutoConfiguration matched
+      - @ConditionalOnClass classes found: org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurer (OnClassCondition)
+      - found web application StandardServletEnvironment (OnWebApplicationCondition)
+
+   WebSocketMessagingAutoConfiguration.WebSocketMessageConverterConfiguration matched
+      - @ConditionalOnClass classes found: com.fasterxml.jackson.databind.ObjectMapper,org.springframework.messaging.simp.config.AbstractMessageBrokerConfiguration (OnClassCondition)
+      - @ConditionalOnBean (types: org.springframework.web.socket.config.annotation.DelegatingWebSocketMessageBrokerConfiguration,com.fasterxml.jackson.databind.ObjectMapper; SearchStrategy: all) found the following [org.springframework.web.socket.config.annotation.DelegatingWebSocketMessageBrokerConfiguration, jacksonObjectMapper] (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   ActiveMQAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: javax.jms.ConnectionFactory,org.apache.activemq.ActiveMQConnectionFactory (OnClassCondition)
+
+   AopAutoConfiguration.CglibAutoProxyConfiguration did not match
+      - @ConditionalOnProperty missing required properties spring.aop.proxy-target-class (OnPropertyCondition)
+
+   ArtemisAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: javax.jms.ConnectionFactory,org.apache.activemq.artemis.jms.client.ActiveMQConnectionFactory (OnClassCondition)
+
+   AtomikosJtaConfiguration did not match
+      - required @ConditionalOnClass classes not found: com.atomikos.icatch.jta.UserTransactionManager (OnClassCondition)
+
+   BatchAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.springframework.batch.core.launch.JobLauncher (OnClassCondition)
+
+   BitronixJtaConfiguration did not match
+      - required @ConditionalOnClass classes not found: bitronix.tm.jndi.BitronixContext (OnClassCondition)
+
+   CassandraAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: com.datastax.driver.core.Cluster (OnClassCondition)
+
+   CassandraDataAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: com.datastax.driver.core.Cluster,org.springframework.data.cassandra.core.CassandraAdminOperations (OnClassCondition)
+
+   CassandraRepositoriesAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: com.datastax.driver.core.Session,org.springframework.data.cassandra.repository.CassandraRepository (OnClassCondition)
+
+   CloudAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.springframework.cloud.config.java.CloudScanConfiguration (OnClassCondition)
+
+   DataSourceAutoConfiguration.EmbeddedConfiguration did not match
+      - existing non-embedded database detected (DataSourceAutoConfiguration.EmbeddedDataSourceCondition)
+
+   DataSourceAutoConfiguration.TomcatDataSourceJmxConfiguration did not match
+      - @ConditionalOnClass classes found: org.apache.tomcat.jdbc.pool.DataSourceProxy (OnClassCondition)
+      - existing auto database detected (DataSourceAutoConfiguration.DataSourceAvailableCondition)
+      - @ConditionalOnProperty missing required properties spring.datasource.jmx-enabled (OnPropertyCondition)
+
+   DataSourcePoolMetadataProvidersConfiguration.CommonsDbcp2PoolDataSourceMetadataProviderConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.apache.commons.dbcp2.BasicDataSource (OnClassCondition)
+
+   DataSourcePoolMetadataProvidersConfiguration.CommonsDbcpPoolDataSourceMetadataProviderConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.apache.commons.dbcp.BasicDataSource (OnClassCondition)
+
+   DataSourcePoolMetadataProvidersConfiguration.HikariPoolDataSourceMetadataProviderConfiguration did not match
+      - required @ConditionalOnClass classes not found: com.zaxxer.hikari.HikariDataSource (OnClassCondition)
+
+   DataSourceTransactionManagerAutoConfiguration#transactionManager did not match
+      - @ConditionalOnMissingBean (types: org.springframework.transaction.PlatformTransactionManager; SearchStrategy: all) found the following [transactionManager] (OnBeanCondition)
+
+   DeviceDelegatingViewResolverAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.springframework.mobile.device.view.LiteDeviceDelegatingViewResolver (OnClassCondition)
+
+   DeviceResolverAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.springframework.mobile.device.DeviceResolverHandlerInterceptor,org.springframework.mobile.device.DeviceHandlerMethodArgumentResolver (OnClassCondition)
+
+   DispatcherServletAutoConfiguration.DispatcherServletConfiguration#multipartResolver did not match
+      - @ConditionalOnBean (types: org.springframework.web.multipart.MultipartResolver; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   EhCacheCacheConfiguration did not match
+      - required @ConditionalOnClass classes not found: net.sf.ehcache.Cache,org.springframework.cache.ehcache.EhCacheCacheManager (OnClassCondition)
+
+   ElasticsearchAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.elasticsearch.client.Client,org.springframework.data.elasticsearch.client.TransportClientFactoryBean,org.springframework.data.elasticsearch.client.NodeClientFactoryBean (OnClassCondition)
+
+   ElasticsearchDataAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.elasticsearch.client.Client,org.springframework.data.elasticsearch.core.ElasticsearchTemplate (OnClassCondition)
+
+   ElasticsearchRepositoriesAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.elasticsearch.client.Client,org.springframework.data.elasticsearch.repository.ElasticsearchRepository (OnClassCondition)
+
+   EmbeddedMongoAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: com.mongodb.Mongo,de.flapdoodle.embed.mongo.MongodStarter (OnClassCondition)
+
+   EmbeddedServletContainerAutoConfiguration.EmbeddedJetty did not match
+      - required @ConditionalOnClass classes not found: org.eclipse.jetty.server.Server,org.eclipse.jetty.util.Loader,org.eclipse.jetty.webapp.WebAppContext (OnClassCondition)
+
+   EmbeddedServletContainerAutoConfiguration.EmbeddedUndertow did not match
+      - required @ConditionalOnClass classes not found: io.undertow.Undertow,org.xnio.SslClientAuthMode (OnClassCondition)
+
+   FacebookAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.springframework.social.config.annotation.SocialConfigurerAdapter,org.springframework.social.facebook.connect.FacebookConnectionFactory (OnClassCondition)
+
+   FallbackWebSecurityAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.springframework.security.config.annotation.web.configuration.EnableWebSecurity (OnClassCondition)
+
+   FlywayAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.flywaydb.core.Flyway (OnClassCondition)
+
+   FreeMarkerAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: freemarker.template.Configuration,org.springframework.ui.freemarker.FreeMarkerConfigurationFactory (OnClassCondition)
+
+   GenericCacheConfiguration did not match
+      - Automatic cache type (CacheCondition)
+      - @ConditionalOnBean (types: org.springframework.cache.Cache; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   GroovyTemplateAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: groovy.text.markup.MarkupTemplateEngine (OnClassCondition)
+
+   GsonAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: com.google.gson.Gson (OnClassCondition)
+
+   GsonHttpMessageConvertersConfiguration did not match
+      - required @ConditionalOnClass classes not found: com.google.gson.Gson (OnClassCondition)
+
+   GuavaCacheConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.springframework.cache.guava.GuavaCacheManager (OnClassCondition)
+
+   H2ConsoleAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.h2.server.web.WebServlet (OnClassCondition)
+
+   HazelcastAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: com.hazelcast.core.HazelcastInstance (OnClassCondition)
+
+   HazelcastCacheConfiguration did not match
+      - required @ConditionalOnClass classes not found: com.hazelcast.core.HazelcastInstance,com.hazelcast.spring.cache.HazelcastCacheManager (OnClassCondition)
+
+   HazelcastJpaDependencyAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: com.hazelcast.core.HazelcastInstance (OnClassCondition)
+
+   HornetQAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: javax.jms.ConnectionFactory,org.hornetq.api.jms.HornetQJMSClient (OnClassCondition)
+
+   HypermediaAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.springframework.hateoas.Resource,org.springframework.plugin.core.Plugin (OnClassCondition)
+
+   InfinispanCacheConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.infinispan.spring.provider.SpringEmbeddedCacheManager (OnClassCondition)
+
+   IntegrationAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.springframework.integration.config.EnableIntegration (OnClassCondition)
+
+   JCacheCacheConfiguration did not match
+      - required @ConditionalOnClass classes not found: javax.cache.Caching,org.springframework.cache.jcache.JCacheCacheManager (OnClassCondition)
+
+   JacksonAutoConfiguration.JodaDateTimeJacksonConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.joda.time.DateTime,com.fasterxml.jackson.datatype.joda.ser.DateTimeSerializer,com.fasterxml.jackson.datatype.joda.cfg.JacksonJodaDateFormat (OnClassCondition)
+
+   JacksonAutoConfiguration.ParameterNamesModuleConfiguration did not match
+      - required @ConditionalOnClass classes not found: com.fasterxml.jackson.module.paramnames.ParameterNamesModule (OnClassCondition)
+
+   JacksonHttpMessageConvertersConfiguration.MappingJackson2XmlHttpMessageConverterConfiguration did not match
+      - required @ConditionalOnClass classes not found: com.fasterxml.jackson.dataformat.xml.XmlMapper (OnClassCondition)
+
+   JerseyAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.glassfish.jersey.server.spring.SpringComponentProvider (OnClassCondition)
+
+   JmsAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.springframework.jms.core.JmsTemplate (OnClassCondition)
+
+   JndiConnectionFactoryAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.springframework.jms.core.JmsTemplate (OnClassCondition)
+
+   JndiDataSourceAutoConfiguration did not match
+      - @ConditionalOnClass classes found: javax.sql.DataSource,org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType (OnClassCondition)
+      - @ConditionalOnProperty missing required properties spring.datasource.jndi-name (OnPropertyCondition)
+
+   JndiJtaConfiguration did not match
+      - @ConditionalOnClass classes found: org.springframework.transaction.jta.JtaTransactionManager (OnClassCondition)
+      - No JNDI location found from candidates java:comp/UserTransaction,java:comp/TransactionManager,java:appserver/TransactionManager,java:pm/TransactionManager,java:/TransactionManager (OnJndiCondition)
+
+   JooqAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.jooq.DSLContext (OnClassCondition)
+
+   JpaBaseConfiguration#entityManagerFactory did not match
+      - @ConditionalOnMissingBean (types: org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean,javax.persistence.EntityManagerFactory; SearchStrategy: all) found the following [&entityManagerFactory2, entityManagerFactory2] (OnBeanCondition)
+
+   JpaRepositoriesAutoConfiguration did not match
+      - @ConditionalOnClass classes found: org.springframework.data.jpa.repository.JpaRepository (OnClassCondition)
+      - matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean,org.springframework.data.jpa.repository.config.JpaRepositoryConfigExtension; SearchStrategy: all) found the following [&personRepository, &personRepositoryByMyself, org.springframework.data.jpa.repository.config.JpaRepositoryConfigExtension#0] (OnBeanCondition)
+
+   LinkedInAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.springframework.social.config.annotation.SocialConfigurerAdapter,org.springframework.social.linkedin.connect.LinkedInConnectionFactory (OnClassCondition)
+
+   LiquibaseAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: liquibase.integration.spring.SpringLiquibase (OnClassCondition)
+
+   MailSenderAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: javax.mail.internet.MimeMessage (OnClassCondition)
+
+   MailSenderValidatorAutoConfiguration did not match
+      - @ConditionalOnProperty missing required properties spring.mail.test-connection (OnPropertyCondition)
+
+   MessageSourceAutoConfiguration did not match
+      - No bundle found for spring.messages.basename: messages (MessageSourceAutoConfiguration.ResourceBundleCondition)
+
+   MongoAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: com.mongodb.MongoClient (OnClassCondition)
+
+   MongoDataAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: com.mongodb.Mongo,org.springframework.data.mongodb.core.MongoTemplate (OnClassCondition)
+
+   MongoRepositoriesAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: com.mongodb.Mongo,org.springframework.data.mongodb.repository.MongoRepository (OnClassCondition)
+
+   MustacheAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: com.samskivert.mustache.Mustache (OnClassCondition)
+
+   NoOpCacheConfiguration did not match
+      - Automatic cache type (CacheCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.cache.CacheManager; SearchStrategy: all) found the following [cacheManager] (OnBeanCondition)
+
+   OAuth2AutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.springframework.security.oauth2.common.OAuth2AccessToken (OnClassCondition)
+
+   RabbitAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.springframework.amqp.rabbit.core.RabbitTemplate,com.rabbitmq.client.Channel (OnClassCondition)
+
+   ReactorAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: reactor.spring.context.config.EnableReactor,reactor.Environment (OnClassCondition)
+
+   RedisAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.springframework.data.redis.connection.jedis.JedisConnection,org.springframework.data.redis.core.RedisOperations,redis.clients.jedis.Jedis (OnClassCondition)
+
+   RedisCacheConfiguration did not match
+      - Automatic cache type (CacheCondition)
+      - @ConditionalOnBean (types: org.springframework.data.redis.core.RedisTemplate; SearchStrategy: all) found no beans (OnBeanCondition)
+
+   RepositoryRestMvcAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.springframework.data.rest.webmvc.config.RepositoryRestMvcConfiguration (OnClassCondition)
+
+   SecurityAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.config.annotation.authentication.configurers.GlobalAuthenticationConfigurerAdapter (OnClassCondition)
+
+   SecurityFilterAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer,org.springframework.security.config.http.SessionCreationPolicy (OnClassCondition)
+
+   SendGridAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: com.sendgrid.SendGrid (OnClassCondition)
+
+   SessionAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.springframework.session.Session (OnClassCondition)
+
+   SitePreferenceAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.springframework.mobile.device.site.SitePreferenceHandlerInterceptor,org.springframework.mobile.device.site.SitePreferenceHandlerMethodArgumentResolver (OnClassCondition)
+
+   SocialWebAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.springframework.social.connect.web.ConnectController,org.springframework.social.config.annotation.SocialConfigurerAdapter (OnClassCondition)
+
+   SolrAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.apache.solr.client.solrj.impl.HttpSolrServer,org.apache.solr.client.solrj.impl.CloudSolrServer,org.apache.solr.common.cloud.HashPartitioner (OnClassCondition)
+
+   SolrRepositoriesAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.apache.solr.client.solrj.SolrServer,org.springframework.data.solr.repository.SolrRepository (OnClassCondition)
+
+   SpringApplicationAdminJmxAutoConfiguration did not match
+      - @ConditionalOnProperty missing required properties spring.application.admin.enabled (OnPropertyCondition)
+
+   ThymeleafAutoConfiguration.DataAttributeDialectConfiguration did not match
+      - required @ConditionalOnClass classes not found: com.github.mxab.thymeleaf.extras.dataattribute.dialect.DataAttributeDialect (OnClassCondition)
+
+   ThymeleafAutoConfiguration.ThymeleafConditionalCommentsDialectConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.thymeleaf.extras.conditionalcomments.dialect.ConditionalCommentsDialect (OnClassCondition)
+
+   ThymeleafAutoConfiguration.ThymeleafResourceHandlingConfig#resourceUrlEncodingFilter did not match
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.resource.ResourceUrlEncodingFilter; SearchStrategy: all) found no beans (OnBeanCondition)
+      - Webjars locator (org.webjars.WebJarAssetLocator) is absent (OnEnabledResourceChainCondition)
+
+   ThymeleafAutoConfiguration.ThymeleafSecurityDialectConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.thymeleaf.extras.springsecurity4.dialect.SpringSecurityDialect (OnClassCondition)
+
+   TwitterAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.springframework.social.config.annotation.SocialConfigurerAdapter,org.springframework.social.twitter.connect.TwitterConnectionFactory (OnClassCondition)
+
+   VelocityAutoConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.apache.velocity.app.VelocityEngine,org.springframework.ui.velocity.VelocityEngineFactory (OnClassCondition)
+
+   WebMvcAutoConfiguration.ResourceChainCustomizerConfiguration did not match
+      - Webjars locator (org.webjars.WebJarAssetLocator) is absent (OnEnabledResourceChainCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#beanNameViewResolver did not match
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.BeanNameViewResolver; SearchStrategy: all) found the following [beanNameViewResolver] (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#dateFormatter did not match
+      - @ConditionalOnProperty missing required properties spring.mvc.date-format (OnPropertyCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#localeResolver did not match
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.LocaleResolver; SearchStrategy: all) found no beans (OnBeanCondition)
+      - @ConditionalOnProperty missing required properties spring.mvc.locale (OnPropertyCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter.FaviconConfiguration did not match
+      - @ConditionalOnProperty expected '!false' for properties spring.mvc.favicon.enabled (OnPropertyCondition)
+
+   WebSocketAutoConfiguration.JettyWebSocketConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.eclipse.jetty.websocket.jsr356.server.deploy.WebSocketServerContainerInitializer (OnClassCondition)
+
+   WebSocketAutoConfiguration.UndertowWebSocketConfiguration did not match
+      - required @ConditionalOnClass classes not found: io.undertow.websockets.jsr.Bootstrap (OnClassCondition)
+
+   XADataSourceAutoConfiguration did not match
+      - @ConditionalOnClass classes found: javax.sql.DataSource,javax.transaction.TransactionManager,org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType (OnClassCondition)
+      - @ConditionalOnBean (types: org.springframework.boot.jta.XADataSourceWrapper; SearchStrategy: all) found no beans (OnBeanCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+   org.springframework.boot.autoconfigure.PropertyPlaceholderAutoConfiguration
+
+   org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+
+
+
+2017-10-31 21:21:35.946  INFO 17162 --- [RMI TCP Connection(2)-127.0.0.1] com.spring.MVCApplication                : Started MVCApplication in 40.984 seconds (JVM running for 61.783)
+2017-10-31 21:21:35.960 DEBUG 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.c.web.OrderedRequestContextFilter  : Initializing filter 'requestContextFilter'
+2017-10-31 21:21:35.966 DEBUG 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.c.web.OrderedRequestContextFilter  : Filter 'requestContextFilter' configured successfully
+2017-10-31 21:21:35.967 DEBUG 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.boot.context.web.ErrorPageFilter$1   : Initializing filter 'errorPageFilter'
+2017-10-31 21:21:35.968 DEBUG 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.boot.context.web.ErrorPageFilter$1   : Filter 'errorPageFilter' configured successfully
+2017-10-31 21:21:35.968 DEBUG 17162 --- [RMI TCP Connection(2)-127.0.0.1] .s.b.c.w.OrderedHttpPutFormContentFilter : Initializing filter 'httpPutFormContentFilter'
+2017-10-31 21:21:35.968 DEBUG 17162 --- [RMI TCP Connection(2)-127.0.0.1] .s.b.c.w.OrderedHttpPutFormContentFilter : Filter 'httpPutFormContentFilter' configured successfully
+2017-10-31 21:21:35.968 DEBUG 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.c.w.OrderedHiddenHttpMethodFilter  : Initializing filter 'hiddenHttpMethodFilter'
+2017-10-31 21:21:35.969 DEBUG 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.c.w.OrderedHiddenHttpMethodFilter  : Filter 'hiddenHttpMethodFilter' configured successfully
+2017-10-31 21:21:35.969 DEBUG 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.c.w.OrderedCharacterEncodingFilter : Initializing filter 'characterEncodingFilter'
+2017-10-31 21:21:35.969 DEBUG 17162 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.c.w.OrderedCharacterEncodingFilter : Filter 'characterEncodingFilter' configured successfully
+2017-10-31 21:21:36.459  INFO 17162 --- [http-bio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-31 21:21:36.492  INFO 17162 --- [http-bio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 32 ms
+2017-10-31 21:21:36.525 DEBUG 17162 --- [http-bio-8081-exec-1] o.s.b.c.web.OrderedRequestContextFilter  : Bound request context to thread: org.apache.catalina.connector.RequestFacade@4ba03e67
+2017-10-31 21:21:36.633 DEBUG 17162 --- [http-bio-8081-exec-2] o.s.b.c.web.OrderedRequestContextFilter  : Bound request context to thread: org.apache.catalina.connector.RequestFacade@3563d046
+2017-10-31 21:21:36.639 DEBUG 17162 --- [http-bio-8081-exec-2] o.s.b.c.web.OrderedRequestContextFilter  : Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@3563d046
+2017-10-31 21:21:36.639 DEBUG 17162 --- [http-bio-8081-exec-1] o.s.b.c.web.OrderedRequestContextFilter  : Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4ba03e67
+2017-10-31 21:21:37.112 DEBUG 17162 --- [http-bio-8081-exec-5] o.s.b.c.web.OrderedRequestContextFilter  : Bound request context to thread: org.apache.catalina.connector.RequestFacade@4ba03e67
+2017-10-31 21:21:37.122 DEBUG 17162 --- [http-bio-8081-exec-5] o.s.b.c.web.OrderedRequestContextFilter  : Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4ba03e67
+2017-10-31 21:22:08.867 DEBUG 17162 --- [http-bio-8081-exec-2] o.s.b.c.web.OrderedRequestContextFilter  : Bound request context to thread: org.apache.catalina.connector.RequestFacade@114d70d
+2017-10-31 21:22:08.913 DEBUG 17162 --- [http-bio-8081-exec-2] o.s.b.c.web.OrderedRequestContextFilter  : Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@114d70d
+2017-10-31 21:22:08.932 DEBUG 17162 --- [http-bio-8081-exec-2] o.s.b.c.web.OrderedRequestContextFilter  : Bound request context to thread: org.apache.catalina.core.ApplicationHttpRequest@59b07252
+2017-10-31 21:22:09.099 DEBUG 17162 --- [http-bio-8081-exec-2] o.s.b.c.web.OrderedRequestContextFilter  : Cleared thread-bound request context: org.apache.catalina.core.ApplicationHttpRequest@59b07252
+2017-10-31 21:22:30.958 DEBUG 17162 --- [http-bio-8081-exec-6] o.s.b.c.web.OrderedRequestContextFilter  : Bound request context to thread: org.apache.catalina.connector.RequestFacade@102efb1
+2017-10-31 21:22:30.964 DEBUG 17162 --- [http-bio-8081-exec-6] o.s.b.c.web.OrderedRequestContextFilter  : Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@102efb1
+2017-10-31 21:22:30.965 DEBUG 17162 --- [http-bio-8081-exec-6] o.s.b.c.web.OrderedRequestContextFilter  : Bound request context to thread: org.apache.catalina.core.ApplicationHttpRequest@fe5ac8e
+2017-10-31 21:22:30.969 DEBUG 17162 --- [http-bio-8081-exec-6] o.s.b.c.web.OrderedRequestContextFilter  : Cleared thread-bound request context: org.apache.catalina.core.ApplicationHttpRequest@fe5ac8e
+2017-10-31 21:22:32.685  INFO 17162 --- [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannelpool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2017-10-31 21:22:46.509 DEBUG 17162 --- [http-bio-8081-exec-6] o.s.b.c.web.OrderedRequestContextFilter  : Bound request context to thread: org.apache.catalina.connector.RequestFacade@102efb1
+2017-10-31 21:22:46.514 DEBUG 17162 --- [http-bio-8081-exec-6] o.s.b.c.web.OrderedRequestContextFilter  : Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@102efb1
+2017-10-31 21:22:46.515 DEBUG 17162 --- [http-bio-8081-exec-6] o.s.b.c.web.OrderedRequestContextFilter  : Bound request context to thread: org.apache.catalina.core.ApplicationHttpRequest@3b65b9d6
+2017-10-31 21:22:46.520 DEBUG 17162 --- [http-bio-8081-exec-6] o.s.b.c.web.OrderedRequestContextFilter  : Cleared thread-bound request context: org.apache.catalina.core.ApplicationHttpRequest@3b65b9d6
+2017-10-31 21:23:00.755 DEBUG 17162 --- [http-bio-8081-exec-6] o.s.b.c.web.OrderedRequestContextFilter  : Bound request context to thread: org.apache.catalina.connector.RequestFacade@102efb1
+2017-10-31 21:23:00.778 DEBUG 17162 --- [http-bio-8081-exec-6] o.s.b.c.web.OrderedRequestContextFilter  : Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@102efb1
+2017-10-31 21:23:00.779 DEBUG 17162 --- [http-bio-8081-exec-6] o.s.b.c.web.OrderedRequestContextFilter  : Bound request context to thread: org.apache.catalina.core.ApplicationHttpRequest@423c75cd
+2017-10-31 21:23:00.789 DEBUG 17162 --- [http-bio-8081-exec-6] o.s.b.c.web.OrderedRequestContextFilter  : Cleared thread-bound request context: org.apache.catalina.core.ApplicationHttpRequest@423c75cd
+2017-10-31 21:23:19.440 DEBUG 17162 --- [http-bio-8081-exec-6] o.s.b.c.web.OrderedRequestContextFilter  : Bound request context to thread: org.apache.catalina.connector.RequestFacade@102efb1
+2017-10-31 21:23:19.451 DEBUG 17162 --- [http-bio-8081-exec-6] o.s.b.c.web.OrderedRequestContextFilter  : Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@102efb1
+2017-10-31 21:23:19.453 DEBUG 17162 --- [http-bio-8081-exec-6] o.s.b.c.web.OrderedRequestContextFilter  : Bound request context to thread: org.apache.catalina.core.ApplicationHttpRequest@30a471cc
+2017-10-31 21:23:19.465 DEBUG 17162 --- [http-bio-8081-exec-6] o.s.b.c.web.OrderedRequestContextFilter  : Cleared thread-bound request context: org.apache.catalina.core.ApplicationHttpRequest@30a471cc
+2017-10-31 21:23:22.107 DEBUG 17162 --- [http-bio-8081-exec-5] o.s.b.c.web.OrderedRequestContextFilter  : Bound request context to thread: org.apache.catalina.connector.RequestFacade@102efb1
+2017-10-31 21:23:22.115 DEBUG 17162 --- [http-bio-8081-exec-5] o.s.b.c.web.OrderedRequestContextFilter  : Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@102efb1
+2017-10-31 21:23:22.116 DEBUG 17162 --- [http-bio-8081-exec-5] o.s.b.c.web.OrderedRequestContextFilter  : Bound request context to thread: org.apache.catalina.core.ApplicationHttpRequest@657ae2cb
+2017-10-31 21:23:22.124 DEBUG 17162 --- [http-bio-8081-exec-5] o.s.b.c.web.OrderedRequestContextFilter  : Cleared thread-bound request context: org.apache.catalina.core.ApplicationHttpRequest@657ae2cb
+2017-10-31 21:23:27.964 DEBUG 17162 --- [http-bio-8081-exec-5] o.s.b.c.web.OrderedRequestContextFilter  : Bound request context to thread: org.apache.catalina.connector.RequestFacade@102efb1
+2017-10-31 21:23:27.977 DEBUG 17162 --- [http-bio-8081-exec-5] o.s.b.c.web.OrderedRequestContextFilter  : Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@102efb1
+2017-10-31 21:23:27.978 DEBUG 17162 --- [http-bio-8081-exec-5] o.s.b.c.web.OrderedRequestContextFilter  : Bound request context to thread: org.apache.catalina.core.ApplicationHttpRequest@18b8726c
+2017-10-31 21:23:27.984 DEBUG 17162 --- [http-bio-8081-exec-5] o.s.b.c.web.OrderedRequestContextFilter  : Cleared thread-bound request context: org.apache.catalina.core.ApplicationHttpRequest@18b8726c
+2017-10-31 21:24:20.927 DEBUG 17162 --- [http-bio-8081-exec-5] o.s.b.c.web.OrderedRequestContextFilter  : Bound request context to thread: org.apache.catalina.connector.RequestFacade@4ba03e67
+2017-10-31 21:24:21.537 DEBUG 17162 --- [http-bio-8081-exec-5] org.hibernate.SQL                        : select hibernate_sequence.nextval from dual
+2017-10-31 21:24:21.719 DEBUG 17162 --- [http-bio-8081-exec-5] org.hibernate.SQL                        : insert into person (address, age, name, id) values (?, ?, ?, ?)
+2017-10-31 21:24:22.072 DEBUG 17162 --- [http-bio-8081-exec-5] o.s.b.c.web.OrderedRequestContextFilter  : Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4ba03e67
+2017-10-31 21:24:41.579 DEBUG 17162 --- [http-bio-8081-exec-5] o.s.b.c.web.OrderedRequestContextFilter  : Bound request context to thread: org.apache.catalina.connector.RequestFacade@3563d046
+2017-10-31 21:24:41.584 DEBUG 17162 --- [http-bio-8081-exec-5] org.hibernate.SQL                        : select hibernate_sequence.nextval from dual
+2017-10-31 21:24:41.590 DEBUG 17162 --- [http-bio-8081-exec-5] org.hibernate.SQL                        : insert into person (address, age, name, id) values (?, ?, ?, ?)
+2017-10-31 21:24:41.610 DEBUG 17162 --- [http-bio-8081-exec-5] o.s.b.c.web.OrderedRequestContextFilter  : Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@3563d046
+2017-10-31 21:25:23.088 DEBUG 17162 --- [http-bio-8081-exec-6] o.s.b.c.web.OrderedRequestContextFilter  : Bound request context to thread: org.apache.catalina.connector.RequestFacade@3ed16471
+2017-10-31 21:25:23.365 DEBUG 17162 --- [http-bio-8081-exec-6] o.s.b.c.web.OrderedRequestContextFilter  : Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@3ed16471
+2017-10-31 21:25:32.294 DEBUG 17162 --- [http-bio-8081-exec-9] o.s.b.c.web.OrderedRequestContextFilter  : Bound request context to thread: org.apache.catalina.connector.RequestFacade@114d70d
+2017-10-31 21:25:32.306 DEBUG 17162 --- [http-bio-8081-exec-9] o.s.b.c.web.OrderedRequestContextFilter  : Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@114d70d
+2017-10-31 21:36:50.695 DEBUG 17162 --- [http-bio-8081-exec-4] o.s.b.c.web.OrderedRequestContextFilter  : Bound request context to thread: org.apache.catalina.connector.RequestFacade@4d041a56
+2017-10-31 21:36:50.749  INFO 17162 --- [http-bio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto java.lang.String com.spring.web.ch5.Ch522Application.index()
+2017-10-31 21:36:50.750  INFO 17162 --- [http-bio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/book]}" onto java.lang.String com.spring.web.ch5.Ch522Application.bookName()
+2017-10-31 21:36:50.751  INFO 17162 --- [http-bio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/ch623]}" onto public java.lang.String com.spring.web.ch6.Ch623Application.index()
+2017-10-31 21:36:50.756  INFO 17162 --- [http-bio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/bootstrap]}" onto public java.lang.String com.spring.web.ch7.Ch72Application.index(org.springframework.ui.Model)
+2017-10-31 21:36:50.762  INFO 17162 --- [http-bio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/save]}" onto public com.spring.entity.ch8.Person com.spring.web.ch8.DataController.save(java.lang.String,java.lang.String,java.lang.Integer)
+2017-10-31 21:36:50.764  INFO 17162 --- [http-bio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sort]}" onto public java.util.List<com.spring.entity.ch8.Person> com.spring.web.ch8.DataController.sort()
+2017-10-31 21:36:50.765  INFO 17162 --- [http-bio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/q4]}" onto public com.spring.entity.ch8.Person com.spring.web.ch8.DataController.q4(java.lang.String,java.lang.String)
+2017-10-31 21:36:50.765  INFO 17162 --- [http-bio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/page]}" onto public org.springframework.data.domain.Page<com.spring.entity.ch8.Person> com.spring.web.ch8.DataController.page()
+2017-10-31 21:36:50.775  INFO 17162 --- [http-bio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/q1]}" onto public java.util.List<com.spring.entity.ch8.Person> com.spring.web.ch8.DataController.q1(java.lang.String)
+2017-10-31 21:36:50.776  INFO 17162 --- [http-bio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/q2]}" onto public com.spring.entity.ch8.Person com.spring.web.ch8.DataController.q2(java.lang.String,java.lang.String)
+2017-10-31 21:36:50.776  INFO 17162 --- [http-bio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/q3]}" onto public com.spring.entity.ch8.Person com.spring.web.ch8.DataController.q3(java.lang.String,java.lang.String)
+2017-10-31 21:36:50.779  INFO 17162 --- [http-bio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/auto]}" onto public org.springframework.data.domain.Page<com.spring.entity.ch8.Person> com.spring.web.ch8_2.DataController.auto(com.spring.entity.ch8.Person)
+2017-10-31 21:36:50.793  INFO 17162 --- [http-bio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/rollback]}" onto public com.spring.entity.ch8.Person com.spring.web.ch8_4.MyController.rollback(com.spring.entity.ch8.Person)
+2017-10-31 21:36:50.794  INFO 17162 --- [http-bio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/norollback]}" onto public com.spring.entity.ch8.Person com.spring.web.ch8_4.MyController.noRollback(com.spring.entity.ch8.Person)
+2017-10-31 21:36:50.813  INFO 17162 --- [http-bio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-31 21:36:50.815  INFO 17162 --- [http-bio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-31 21:36:50.834  INFO 17162 --- [http-bio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/cache/put]}" onto public com.spring.entity.ch8.Person com.spring.web.ch8_5.CacheController.put(com.spring.entity.ch8.Person)
+2017-10-31 21:36:50.835  INFO 17162 --- [http-bio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/cache/update]}" onto public com.spring.entity.ch8.Person com.spring.web.ch8_5.CacheController.update(com.spring.entity.ch8.Person)
+2017-10-31 21:36:50.835  INFO 17162 --- [http-bio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/cache/able]}" onto public com.spring.entity.ch8.Person com.spring.web.ch8_5.CacheController.cacheable(com.spring.entity.ch8.Person)
+2017-10-31 21:36:50.836  INFO 17162 --- [http-bio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/cache/evit]}" onto public java.lang.String com.spring.web.ch8_5.CacheController.evit(java.lang.Long)
+2017-10-31 21:36:50.883 DEBUG 17162 --- [http-bio-8081-exec-4] o.s.b.c.web.OrderedRequestContextFilter  : Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4d041a56
+2017-10-31 21:37:04.574 DEBUG 17162 --- [http-bio-8081-exec-10] o.s.b.c.web.OrderedRequestContextFilter  : Bound request context to thread: org.apache.catalina.connector.RequestFacade@4ba03e67
+2017-10-31 21:37:04.602 DEBUG 17162 --- [http-bio-8081-exec-10] o.s.b.c.web.OrderedRequestContextFilter  : Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4ba03e67
+2017-10-31 21:37:18.864 DEBUG 17162 --- [http-bio-8081-exec-10] o.s.b.c.web.OrderedRequestContextFilter  : Bound request context to thread: org.apache.catalina.connector.RequestFacade@3ed16471
+2017-10-31 21:37:18.987 DEBUG 17162 --- [http-bio-8081-exec-10] org.hibernate.SQL                        : select person0_.id as id1_0_0_, person0_.address as address2_0_0_, person0_.age as age3_0_0_, person0_.name as name4_0_0_ from person person0_ where person0_.id=?
+2017-10-31 21:37:19.090 DEBUG 17162 --- [http-bio-8081-exec-10] org.hibernate.SQL                        : delete from person where id=?
+2017-10-31 21:37:19.109 DEBUG 17162 --- [http-bio-8081-exec-10] o.s.b.c.web.OrderedRequestContextFilter  : Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@3ed16471
+2017-10-31 21:38:10.123 DEBUG 17162 --- [http-bio-8081-exec-8] o.s.b.c.web.OrderedRequestContextFilter  : Bound request context to thread: org.apache.catalina.connector.RequestFacade@3563d046
+2017-10-31 21:38:10.188 DEBUG 17162 --- [http-bio-8081-exec-8] org.hibernate.SQL                        : select person0_.id as id1_0_0_, person0_.address as address2_0_0_, person0_.age as age3_0_0_, person0_.name as name4_0_0_ from person person0_ where person0_.id=?
+2017-10-31 21:38:10.249 DEBUG 17162 --- [http-bio-8081-exec-8] org.hibernate.SQL                        : update person set address=?, age=?, name=? where id=?
+2017-10-31 21:38:10.274 DEBUG 17162 --- [http-bio-8081-exec-8] o.s.b.c.web.OrderedRequestContextFilter  : Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@3563d046
+2017-10-31 21:38:33.441 DEBUG 17162 --- [http-bio-8081-exec-6] o.s.b.c.web.OrderedRequestContextFilter  : Bound request context to thread: org.apache.catalina.connector.RequestFacade@4d041a56
+2017-10-31 21:38:33.464 DEBUG 17162 --- [http-bio-8081-exec-6] o.s.b.c.web.OrderedRequestContextFilter  : Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4d041a56
+2017-10-31 21:39:41.827 DEBUG 17162 --- [http-bio-8081-exec-9] o.s.b.c.web.OrderedRequestContextFilter  : Bound request context to thread: org.apache.catalina.connector.RequestFacade@3ed16471
+2017-10-31 21:39:41.836  INFO 17162 --- [http-bio-8081-exec-9] o.s.w.s.s.s.WebSocketHandlerMapping      : Mapped URL path [/endpointTest/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+2017-10-31 21:39:41.838  INFO 17162 --- [http-bio-8081-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/ws] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2017-10-31 21:39:41.842  INFO 17162 --- [http-bio-8081-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-31 21:39:41.842  INFO 17162 --- [http-bio-8081-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-31 21:39:41.940  WARN 17162 --- [http-bio-8081-exec-9] o.s.web.servlet.PageNotFound             : Request method 'POST' not supported
+2017-10-31 21:39:41.941 DEBUG 17162 --- [http-bio-8081-exec-9] o.s.b.c.web.OrderedRequestContextFilter  : Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@3ed16471
+2017-10-31 21:39:41.942 DEBUG 17162 --- [http-bio-8081-exec-9] o.s.b.c.web.OrderedRequestContextFilter  : Bound request context to thread: org.apache.catalina.core.ApplicationHttpRequest@2985c6de
+2017-10-31 21:39:42.140 DEBUG 17162 --- [http-bio-8081-exec-9] o.s.b.c.web.OrderedRequestContextFilter  : Cleared thread-bound request context: org.apache.catalina.core.ApplicationHttpRequest@2985c6de
+2017-10-31 21:40:02.405 DEBUG 17162 --- [http-bio-8081-exec-4] o.s.b.c.web.OrderedRequestContextFilter  : Bound request context to thread: org.apache.catalina.connector.RequestFacade@3563d046
+2017-10-31 21:40:02.408  WARN 17162 --- [http-bio-8081-exec-4] o.s.web.servlet.PageNotFound             : Request method 'POST' not supported
+2017-10-31 21:40:02.409 DEBUG 17162 --- [http-bio-8081-exec-4] o.s.b.c.web.OrderedRequestContextFilter  : Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@3563d046
+2017-10-31 21:40:02.410 DEBUG 17162 --- [http-bio-8081-exec-4] o.s.b.c.web.OrderedRequestContextFilter  : Bound request context to thread: org.apache.catalina.core.ApplicationHttpRequest@787e54d8
+2017-10-31 21:40:02.416 DEBUG 17162 --- [http-bio-8081-exec-4] o.s.b.c.web.OrderedRequestContextFilter  : Cleared thread-bound request context: org.apache.catalina.core.ApplicationHttpRequest@787e54d8
+2017-10-31 21:40:25.059 DEBUG 17162 --- [http-bio-8081-exec-10] o.s.b.c.web.OrderedRequestContextFilter  : Bound request context to thread: org.apache.catalina.connector.RequestFacade@4d041a56
+2017-10-31 21:40:25.063  WARN 17162 --- [http-bio-8081-exec-10] o.s.web.servlet.PageNotFound             : Request method 'POST' not supported
+2017-10-31 21:40:25.065 DEBUG 17162 --- [http-bio-8081-exec-10] o.s.b.c.web.OrderedRequestContextFilter  : Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4d041a56
+2017-10-31 21:40:25.067 DEBUG 17162 --- [http-bio-8081-exec-10] o.s.b.c.web.OrderedRequestContextFilter  : Bound request context to thread: org.apache.catalina.core.ApplicationHttpRequest@5bc9c392
+2017-10-31 21:40:25.081 DEBUG 17162 --- [http-bio-8081-exec-10] o.s.b.c.web.OrderedRequestContextFilter  : Cleared thread-bound request context: org.apache.catalina.core.ApplicationHttpRequest@5bc9c392
+2017-10-31 21:41:19.582 DEBUG 17162 --- [http-bio-8081-exec-8] o.s.b.c.web.OrderedRequestContextFilter  : Bound request context to thread: org.apache.catalina.connector.RequestFacade@3ed16471
+2017-10-31 21:41:19.607 DEBUG 17162 --- [http-bio-8081-exec-8] o.s.b.c.web.OrderedRequestContextFilter  : Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@3ed16471
+2017-10-31 21:41:19.607 DEBUG 17162 --- [http-bio-8081-exec-8] o.s.b.c.web.OrderedRequestContextFilter  : Bound request context to thread: org.apache.catalina.core.ApplicationHttpRequest@71165d43
+2017-10-31 21:41:19.612 DEBUG 17162 --- [http-bio-8081-exec-8] o.s.b.c.web.OrderedRequestContextFilter  : Cleared thread-bound request context: org.apache.catalina.core.ApplicationHttpRequest@71165d43
+2017-10-31 23:14:27.721  INFO 20834 --- [RMI TCP Connection(4)-127.0.0.1] com.spring.MVCApplication                : Starting MVCApplication on wangweideMacBook-Pro.local with PID 20834 (/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/classes started by wangwei in /Users/wangwei/Documents/Tomcat7/bin)
+2017-10-31 23:14:27.766  INFO 20834 --- [RMI TCP Connection(4)-127.0.0.1] com.spring.MVCApplication                : No active profile set, falling back to default profiles: default
+2017-10-31 23:14:27.767 DEBUG 20834 --- [RMI TCP Connection(4)-127.0.0.1] o.s.boot.SpringApplication               : Loading source class com.spring.MVCApplication,class org.springframework.boot.context.web.ErrorPageFilter
+2017-10-31 23:14:29.096 DEBUG 20834 --- [RMI TCP Connection(4)-127.0.0.1] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'classpath:/application.properties'
+2017-10-31 23:14:29.097 DEBUG 20834 --- [RMI TCP Connection(4)-127.0.0.1] o.s.b.c.c.ConfigFileApplicationListener  : Skipped (empty) config file 'classpath:/application.properties' for profile default
+2017-10-31 23:14:29.103  INFO 20834 --- [RMI TCP Connection(4)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7142fc1c: startup date [Tue Oct 31 23:14:29 CST 2017]; root of context hierarchy
+2017-10-31 23:14:29.113 DEBUG 20834 --- [RMI TCP Connection(4)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Bean factory for org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7142fc1c: org.springframework.beans.factory.support.DefaultListableBeanFactory@18420ca7: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,MVCApplication,errorPageFilter]; root of factory hierarchy
+2017-10-31 23:14:29.846  WARN 20834 --- [RMI TCP Connection(4)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.spring.MVCApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'dataController' for bean class [com.spring.web.ch8_6.DataController] conflicts with existing, non-compatible bean definition of same name and class [com.spring.web.ch8.DataController]
+2017-10-31 23:14:29.956 ERROR 20834 --- [RMI TCP Connection(4)-127.0.0.1] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.spring.MVCApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'dataController' for bean class [com.spring.web.ch8_6.DataController] conflicts with existing, non-compatible bean definition of same name and class [com.spring.web.ch8.DataController]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:182) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:243) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:273) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:98) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:678) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.__refresh(AbstractApplicationContext.java:520) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.jrLockAndRefresh(AbstractApplicationContext.java) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:118) ~[spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:760) ~[spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.SpringApplication.createAndRefreshContext(SpringApplication.java:360) ~[spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306) ~[spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.context.web.SpringBootServletInitializer.run(SpringBootServletInitializer.java:149) [spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.context.web.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:129) [spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.context.web.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:85) [spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:169) [spring-web-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5623) [catalina.jar:7.0.78]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145) [catalina.jar:7.0.78]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899) [catalina.jar:7.0.78]
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875) [catalina.jar:7.0.78]
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652) [catalina.jar:7.0.78]
+	at org.apache.catalina.startup.HostConfig.manageApp(HostConfig.java:1863) [catalina.jar:7.0.78]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.__invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java) ~[na:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_101]
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:301) [tomcat-coyote.jar:7.0.78]
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819) [na:1.8.0_101]
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801) [na:1.8.0_101]
+	at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:618) [catalina.jar:7.0.78]
+	at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:565) [catalina.jar:7.0.78]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.__invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java) ~[na:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_101]
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:301) [tomcat-coyote.jar:7.0.78]
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819) [na:1.8.0_101]
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801) [na:1.8.0_101]
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468) [na:1.8.0_101]
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76) [na:1.8.0_101]
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309) [na:1.8.0_101]
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401) [na:1.8.0_101]
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829) [na:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.__invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java) ~[na:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_101]
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:324) [na:1.8.0_101]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) [na:1.8.0_101]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) [na:1.8.0_101]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_101]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) [na:1.8.0_101]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568) [na:1.8.0_101]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826) [na:1.8.0_101]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683) [na:1.8.0_101]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_101]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682) [na:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_101]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_101]
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'dataController' for bean class [com.spring.web.ch8_6.DataController] conflicts with existing, non-compatible bean definition of same name and class [com.spring.web.ch8.DataController]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:320) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:259) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:137) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:268) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:232) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:199) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:168) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	... 66 common frames omitted
+
+2017-10-31 23:14:29.959  INFO 20834 --- [RMI TCP Connection(4)-127.0.0.1] .b.l.ClasspathLoggingApplicationListener : Application failed to start with classpath: [file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/classes/, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/antlr-2.7.7.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/aopalliance-1.0.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/aspectjweaver-1.8.9.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/classmate-1.1.0.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/dom4j-1.6.1.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/groovy-2.4.7.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/guava-18.0.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/hibernate-commons-annotations-4.0.5.Final.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/hibernate-core-4.3.11.Final.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/hibernate-entitymanager-4.3.11.Final.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/hibernate-validator-5.2.4.Final.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/jackson-annotations-2.6.7.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/jackson-core-2.6.7.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/jackson-databind-2.6.7.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/jandex-1.1.0.Final.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/javassist-3.18.1-GA.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/javax.transaction-api-1.2.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/jboss-logging-3.3.0.Final.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/jboss-logging-annotations-1.2.0.Beta1.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/jcl-over-slf4j-1.7.21.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/jul-to-slf4j-1.7.21.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/log4j-over-slf4j-1.7.21.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/logback-classic-1.1.7.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/logback-core-1.1.7.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/ognl-3.0.8.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/ojdbc6-11.2.1.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/slf4j-api-1.7.21.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/snakeyaml-1.16.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-aop-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-aspects-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-beans-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-boot-1.3.6.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-boot-autoconfigure-1.3.6.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-boot-starter-1.3.6.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-boot-starter-aop-1.3.6.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-boot-starter-data-jpa-1.3.6.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-boot-starter-jdbc-1.3.6.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-boot-starter-logging-1.3.6.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-boot-starter-thymeleaf-1.3.6.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-boot-starter-validation-1.3.6.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-boot-starter-web-1.3.6.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-boot-starter-websocket-1.3.6.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-context-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-core-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-data-commons-1.11.4.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-data-jpa-1.9.4.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-expression-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-jdbc-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-messaging-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-orm-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-tx-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-web-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-webmvc-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-websocket-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/thymeleaf-2.1.4.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/thymeleaf-layout-dialect-1.3.3.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/thymeleaf-spring4-2.1.4.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/tomcat-jdbc-8.0.36.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/tomcat-juli-8.0.36.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/unbescape-1.1.0.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/validation-api-1.1.0.Final.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/xml-apis-1.0.b2.jar]
+2017-10-31 23:15:36.542  INFO 20912 --- [RMI TCP Connection(2)-127.0.0.1] com.spring.MVCApplication                : Starting MVCApplication on wangweideMacBook-Pro.local with PID 20912 (/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/classes started by wangwei in /Users/wangwei/Documents/Tomcat7/bin)
+2017-10-31 23:15:36.572  INFO 20912 --- [RMI TCP Connection(2)-127.0.0.1] com.spring.MVCApplication                : No active profile set, falling back to default profiles: default
+2017-10-31 23:15:36.573 DEBUG 20912 --- [RMI TCP Connection(2)-127.0.0.1] o.s.boot.SpringApplication               : Loading source class com.spring.MVCApplication,class org.springframework.boot.context.web.ErrorPageFilter
+2017-10-31 23:15:37.404 DEBUG 20912 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'classpath:/application.properties'
+2017-10-31 23:15:37.405 DEBUG 20912 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.c.c.ConfigFileApplicationListener  : Skipped (empty) config file 'classpath:/application.properties' for profile default
+2017-10-31 23:15:37.409  INFO 20912 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7b23421b: startup date [Tue Oct 31 23:15:37 CST 2017]; root of context hierarchy
+2017-10-31 23:15:37.420 DEBUG 20912 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Bean factory for org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7b23421b: org.springframework.beans.factory.support.DefaultListableBeanFactory@7698912f: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,MVCApplication,errorPageFilter]; root of factory hierarchy
+2017-10-31 23:15:44.342  INFO 20912 --- [RMI TCP Connection(2)-127.0.0.1] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$635e920d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-31 23:15:44.466  INFO 20912 --- [RMI TCP Connection(2)-127.0.0.1] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [class org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$ac70c82b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-31 23:15:44.520  INFO 20912 --- [RMI TCP Connection(2)-127.0.0.1] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration' of type [class org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$$EnhancerBySpringCGLIB$$a0e48ccf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-31 23:15:45.234  INFO 20912 --- [RMI TCP Connection(2)-127.0.0.1] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cache.CONFIGURATION_PROPERTIES' of type [class org.springframework.boot.autoconfigure.cache.CacheProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-31 23:15:45.246  WARN 20912 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'embeddedServletContainerCustomizerBeanPostProcessor': BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cache.config.internalCacheAdvisor' defined in class path resource [org/springframework/cache/annotation/ProxyCachingConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cache.interceptor.BeanFactoryCacheOperationSourceAdvisor]: Factory method 'cacheAdvisor' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheAutoConfigurationValidator': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: No cache manager could be auto-configured, check your configuration (caching type is 'EHCACHE')
+2017-10-31 23:15:45.377 ERROR 20912 --- [RMI TCP Connection(2)-127.0.0.1] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'embeddedServletContainerCustomizerBeanPostProcessor': BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cache.config.internalCacheAdvisor' defined in class path resource [org/springframework/cache/annotation/ProxyCachingConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cache.interceptor.BeanFactoryCacheOperationSourceAdvisor]: Factory method 'cacheAdvisor' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheAutoConfigurationValidator': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: No cache manager could be auto-configured, check your configuration (caching type is 'EHCACHE')
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:478) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:240) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:687) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.__refresh(AbstractApplicationContext.java:523) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.jrLockAndRefresh(AbstractApplicationContext.java) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:118) ~[spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:760) ~[spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.SpringApplication.createAndRefreshContext(SpringApplication.java:360) ~[spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306) ~[spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.context.web.SpringBootServletInitializer.run(SpringBootServletInitializer.java:149) [spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.context.web.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:129) [spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.context.web.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:85) [spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:169) [spring-web-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5623) [catalina.jar:7.0.78]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145) [catalina.jar:7.0.78]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899) [catalina.jar:7.0.78]
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875) [catalina.jar:7.0.78]
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652) [catalina.jar:7.0.78]
+	at org.apache.catalina.startup.HostConfig.manageApp(HostConfig.java:1863) [catalina.jar:7.0.78]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.__invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java) ~[na:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_101]
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:301) [tomcat-coyote.jar:7.0.78]
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819) [na:1.8.0_101]
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801) [na:1.8.0_101]
+	at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:618) [catalina.jar:7.0.78]
+	at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:565) [catalina.jar:7.0.78]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.__invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java) ~[na:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_101]
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:301) [tomcat-coyote.jar:7.0.78]
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819) [na:1.8.0_101]
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801) [na:1.8.0_101]
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468) [na:1.8.0_101]
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76) [na:1.8.0_101]
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309) [na:1.8.0_101]
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401) [na:1.8.0_101]
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829) [na:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.__invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java) ~[na:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_101]
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:324) [na:1.8.0_101]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) [na:1.8.0_101]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) [na:1.8.0_101]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_101]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) [na:1.8.0_101]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568) [na:1.8.0_101]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826) [na:1.8.0_101]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683) [na:1.8.0_101]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_101]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682) [na:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_101]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_101]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cache.config.internalCacheAdvisor' defined in class path resource [org/springframework/cache/annotation/ProxyCachingConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cache.interceptor.BeanFactoryCacheOperationSourceAdvisor]: Factory method 'cacheAdvisor' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheAutoConfigurationValidator': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: No cache manager could be auto-configured, check your configuration (caching type is 'EHCACHE')
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1123) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1018) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:510) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:92) ~[spring-aop-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:101) ~[spring-aop-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:85) ~[spring-aop-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:103) ~[spring-aop-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:248) ~[spring-aop-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:988) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:959) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:472) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	... 67 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cache.interceptor.BeanFactoryCacheOperationSourceAdvisor]: Factory method 'cacheAdvisor' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheAutoConfigurationValidator': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: No cache manager could be auto-configured, check your configuration (caching type is 'EHCACHE')
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	... 83 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheAutoConfigurationValidator': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: No cache manager could be auto-configured, check your configuration (caching type is 'EHCACHE')
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:136) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:408) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:296) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:381) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$ac70c82b.cacheInterceptor(<generated>) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.cache.annotation.ProxyCachingConfiguration.cacheAdvisor(ProxyCachingConfiguration.java:46) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$ac70c82b.CGLIB$cacheAdvisor$1(<generated>) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$ac70c82b$$FastClassBySpringCGLIB$$8873d520.invoke(<generated>) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) ~[spring-core-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:356) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$ac70c82b.cacheAdvisor(<generated>) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.__invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java) ~[na:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_101]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	... 84 common frames omitted
+Caused by: java.lang.IllegalArgumentException: No cache manager could be auto-configured, check your configuration (caching type is 'EHCACHE')
+	at org.springframework.util.Assert.notNull(Assert.java:115) ~[spring-core-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$CacheManagerValidator.checkHasCacheManager(CacheAutoConfiguration.java:138) ~[spring-boot-autoconfigure-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.__invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java) ~[na:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_101]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:354) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:305) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:133) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	... 109 common frames omitted
+
+2017-10-31 23:15:45.383  INFO 20912 --- [RMI TCP Connection(2)-127.0.0.1] .b.l.ClasspathLoggingApplicationListener : Application failed to start with classpath: [file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/classes/, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/antlr-2.7.7.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/aopalliance-1.0.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/aspectjweaver-1.8.9.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/classmate-1.1.0.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/dom4j-1.6.1.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/groovy-2.4.7.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/guava-18.0.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/hibernate-commons-annotations-4.0.5.Final.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/hibernate-core-4.3.11.Final.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/hibernate-entitymanager-4.3.11.Final.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/hibernate-validator-5.2.4.Final.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/jackson-annotations-2.6.7.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/jackson-core-2.6.7.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/jackson-databind-2.6.7.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/jandex-1.1.0.Final.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/javassist-3.18.1-GA.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/javax.transaction-api-1.2.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/jboss-logging-3.3.0.Final.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/jboss-logging-annotations-1.2.0.Beta1.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/jcl-over-slf4j-1.7.21.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/jul-to-slf4j-1.7.21.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/log4j-over-slf4j-1.7.21.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/logback-classic-1.1.7.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/logback-core-1.1.7.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/ognl-3.0.8.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/ojdbc6-11.2.1.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/slf4j-api-1.7.21.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/snakeyaml-1.16.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-aop-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-aspects-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-beans-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-boot-1.3.6.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-boot-autoconfigure-1.3.6.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-boot-starter-1.3.6.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-boot-starter-aop-1.3.6.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-boot-starter-data-jpa-1.3.6.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-boot-starter-jdbc-1.3.6.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-boot-starter-logging-1.3.6.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-boot-starter-thymeleaf-1.3.6.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-boot-starter-validation-1.3.6.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-boot-starter-web-1.3.6.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-boot-starter-websocket-1.3.6.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-context-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-core-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-data-commons-1.11.4.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-data-jpa-1.9.4.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-expression-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-jdbc-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-messaging-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-orm-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-tx-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-web-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-webmvc-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-websocket-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/thymeleaf-2.1.4.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/thymeleaf-layout-dialect-1.3.3.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/thymeleaf-spring4-2.1.4.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/tomcat-jdbc-8.0.36.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/tomcat-juli-8.0.36.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/unbescape-1.1.0.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/validation-api-1.1.0.Final.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/xml-apis-1.0.b2.jar]
+2017-10-31 23:20:49.272  INFO 21033 --- [RMI TCP Connection(4)-127.0.0.1] com.spring.MVCApplication                : Starting MVCApplication on wangweideMacBook-Pro.local with PID 21033 (/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/classes started by wangwei in /Users/wangwei/Documents/Tomcat7/bin)
+2017-10-31 23:20:49.299  INFO 21033 --- [RMI TCP Connection(4)-127.0.0.1] com.spring.MVCApplication                : No active profile set, falling back to default profiles: default
+2017-10-31 23:20:49.300 DEBUG 21033 --- [RMI TCP Connection(4)-127.0.0.1] o.s.boot.SpringApplication               : Loading source class com.spring.MVCApplication,class org.springframework.boot.context.web.ErrorPageFilter
+2017-10-31 23:20:50.791 DEBUG 21033 --- [RMI TCP Connection(4)-127.0.0.1] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'classpath:/application.properties'
+2017-10-31 23:20:50.791 DEBUG 21033 --- [RMI TCP Connection(4)-127.0.0.1] o.s.b.c.c.ConfigFileApplicationListener  : Skipped (empty) config file 'classpath:/application.properties' for profile default
+2017-10-31 23:20:50.796  INFO 21033 --- [RMI TCP Connection(4)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@529023a8: startup date [Tue Oct 31 23:20:50 CST 2017]; root of context hierarchy
+2017-10-31 23:20:50.806 DEBUG 21033 --- [RMI TCP Connection(4)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Bean factory for org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@529023a8: org.springframework.beans.factory.support.DefaultListableBeanFactory@305f2f74: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,MVCApplication,errorPageFilter]; root of factory hierarchy
+2017-10-31 23:21:01.263  INFO 21033 --- [RMI TCP Connection(4)-127.0.0.1] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7c2fdce9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-31 23:21:02.092  INFO 21033 --- [RMI TCP Connection(4)-127.0.0.1] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [class org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$c5421307] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-31 23:21:02.474  INFO 21033 --- [RMI TCP Connection(4)-127.0.0.1] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration' of type [class org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$$EnhancerBySpringCGLIB$$b9b5d7ab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-31 23:21:06.293  INFO 21033 --- [RMI TCP Connection(4)-127.0.0.1] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cache.CONFIGURATION_PROPERTIES' of type [class org.springframework.boot.autoconfigure.cache.CacheProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-31 23:21:06.359  WARN 21033 --- [RMI TCP Connection(4)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'embeddedServletContainerCustomizerBeanPostProcessor': BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cache.config.internalCacheAdvisor' defined in class path resource [org/springframework/cache/annotation/ProxyCachingConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cache.interceptor.BeanFactoryCacheOperationSourceAdvisor]: Factory method 'cacheAdvisor' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheAutoConfigurationValidator': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: No cache manager could be auto-configured, check your configuration (caching type is 'EHCACHE')
+2017-10-31 23:21:06.723 ERROR 21033 --- [RMI TCP Connection(4)-127.0.0.1] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'embeddedServletContainerCustomizerBeanPostProcessor': BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cache.config.internalCacheAdvisor' defined in class path resource [org/springframework/cache/annotation/ProxyCachingConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cache.interceptor.BeanFactoryCacheOperationSourceAdvisor]: Factory method 'cacheAdvisor' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheAutoConfigurationValidator': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: No cache manager could be auto-configured, check your configuration (caching type is 'EHCACHE')
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:478) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:240) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:687) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.__refresh(AbstractApplicationContext.java:523) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.jrLockAndRefresh(AbstractApplicationContext.java) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:118) ~[spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:760) ~[spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.SpringApplication.createAndRefreshContext(SpringApplication.java:360) ~[spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306) ~[spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.context.web.SpringBootServletInitializer.run(SpringBootServletInitializer.java:149) [spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.context.web.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:129) [spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.context.web.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:85) [spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:169) [spring-web-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5623) [catalina.jar:7.0.78]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145) [catalina.jar:7.0.78]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899) [catalina.jar:7.0.78]
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875) [catalina.jar:7.0.78]
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652) [catalina.jar:7.0.78]
+	at org.apache.catalina.startup.HostConfig.manageApp(HostConfig.java:1863) [catalina.jar:7.0.78]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.__invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java) ~[na:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_101]
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:301) [tomcat-coyote.jar:7.0.78]
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819) [na:1.8.0_101]
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801) [na:1.8.0_101]
+	at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:618) [catalina.jar:7.0.78]
+	at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:565) [catalina.jar:7.0.78]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.__invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java) ~[na:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_101]
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:301) [tomcat-coyote.jar:7.0.78]
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819) [na:1.8.0_101]
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801) [na:1.8.0_101]
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468) [na:1.8.0_101]
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76) [na:1.8.0_101]
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309) [na:1.8.0_101]
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401) [na:1.8.0_101]
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829) [na:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.__invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java) ~[na:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_101]
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:324) [na:1.8.0_101]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) [na:1.8.0_101]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) [na:1.8.0_101]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_101]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) [na:1.8.0_101]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568) [na:1.8.0_101]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826) [na:1.8.0_101]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683) [na:1.8.0_101]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_101]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682) [na:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_101]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_101]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cache.config.internalCacheAdvisor' defined in class path resource [org/springframework/cache/annotation/ProxyCachingConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cache.interceptor.BeanFactoryCacheOperationSourceAdvisor]: Factory method 'cacheAdvisor' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheAutoConfigurationValidator': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: No cache manager could be auto-configured, check your configuration (caching type is 'EHCACHE')
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1123) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1018) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:510) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:92) ~[spring-aop-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:101) ~[spring-aop-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:85) ~[spring-aop-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:103) ~[spring-aop-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:248) ~[spring-aop-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:988) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:959) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:472) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	... 67 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cache.interceptor.BeanFactoryCacheOperationSourceAdvisor]: Factory method 'cacheAdvisor' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheAutoConfigurationValidator': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: No cache manager could be auto-configured, check your configuration (caching type is 'EHCACHE')
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	... 83 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheAutoConfigurationValidator': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: No cache manager could be auto-configured, check your configuration (caching type is 'EHCACHE')
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:136) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:408) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:296) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:381) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$c5421307.cacheInterceptor(<generated>) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.cache.annotation.ProxyCachingConfiguration.cacheAdvisor(ProxyCachingConfiguration.java:46) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$c5421307.CGLIB$cacheAdvisor$0(<generated>) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$c5421307$$FastClassBySpringCGLIB$$d1be6099.invoke(<generated>) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) ~[spring-core-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:356) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$c5421307.cacheAdvisor(<generated>) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.__invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java) ~[na:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_101]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	... 84 common frames omitted
+Caused by: java.lang.IllegalArgumentException: No cache manager could be auto-configured, check your configuration (caching type is 'EHCACHE')
+	at org.springframework.util.Assert.notNull(Assert.java:115) ~[spring-core-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$CacheManagerValidator.checkHasCacheManager(CacheAutoConfiguration.java:138) ~[spring-boot-autoconfigure-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.__invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java) ~[na:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_101]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:354) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:305) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:133) ~[spring-beans-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	... 109 common frames omitted
+
+2017-10-31 23:21:06.738  INFO 21033 --- [RMI TCP Connection(4)-127.0.0.1] .b.l.ClasspathLoggingApplicationListener : Application failed to start with classpath: [file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/classes/, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/antlr-2.7.7.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/aopalliance-1.0.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/aspectjweaver-1.8.9.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/classmate-1.1.0.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/dom4j-1.6.1.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/groovy-2.4.7.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/guava-18.0.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/hibernate-commons-annotations-4.0.5.Final.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/hibernate-core-4.3.11.Final.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/hibernate-entitymanager-4.3.11.Final.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/hibernate-validator-5.2.4.Final.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/jackson-annotations-2.6.7.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/jackson-core-2.6.7.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/jackson-databind-2.6.7.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/jandex-1.1.0.Final.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/javassist-3.18.1-GA.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/javax.transaction-api-1.2.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/jboss-logging-3.3.0.Final.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/jboss-logging-annotations-1.2.0.Beta1.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/jcl-over-slf4j-1.7.21.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/jul-to-slf4j-1.7.21.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/log4j-over-slf4j-1.7.21.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/logback-classic-1.1.7.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/logback-core-1.1.7.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/ognl-3.0.8.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/ojdbc6-11.2.1.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/slf4j-api-1.7.21.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/snakeyaml-1.16.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-aop-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-aspects-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-beans-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-boot-1.3.6.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-boot-autoconfigure-1.3.6.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-boot-starter-1.3.6.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-boot-starter-aop-1.3.6.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-boot-starter-data-jpa-1.3.6.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-boot-starter-jdbc-1.3.6.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-boot-starter-logging-1.3.6.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-boot-starter-thymeleaf-1.3.6.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-boot-starter-validation-1.3.6.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-boot-starter-web-1.3.6.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-boot-starter-websocket-1.3.6.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-context-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-core-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-data-commons-1.11.4.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-data-jpa-1.9.4.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-expression-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-jdbc-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-messaging-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-orm-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-tx-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-web-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-webmvc-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/spring-websocket-4.2.7.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/thymeleaf-2.1.4.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/thymeleaf-layout-dialect-1.3.3.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/thymeleaf-spring4-2.1.4.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/tomcat-jdbc-8.0.36.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/tomcat-juli-8.0.36.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/unbescape-1.1.0.RELEASE.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/validation-api-1.1.0.Final.jar, file:/Users/wangwei/Documents/gitRepositiry/myFirstSpringBoot/firstSpringBoot/WebRoot/WEB-INF/lib/xml-apis-1.0.b2.jar]

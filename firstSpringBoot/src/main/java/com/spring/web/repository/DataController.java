@@ -1,4 +1,4 @@
-package com.spring.web.ch8;
+package com.spring.web.repository;
 
 import com.spring.dao.ch8.PersonRepository;
 import com.spring.entity.ch8.Person;
@@ -15,6 +15,7 @@ import java.util.List;
  * Created by wangwei on 2017/10/17.
  */
 @RestController
+@RequestMapping("/repository")
 public class DataController {
 
     @Autowired

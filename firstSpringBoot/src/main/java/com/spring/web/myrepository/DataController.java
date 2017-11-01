@@ -1,4 +1,4 @@
-package com.spring.web.ch8_2;
+package com.spring.web.myrepository;
 
 import com.spring.dao.ch8_2.PersonRepositoryByMyself;
 import com.spring.entity.ch8.Person;
@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
  * Created by wangwei on 2017/10/23.
  */
 @RestController(value = "dataController8_2")
+@RequestMapping("/myrepository")
 public class DataController {
 
     @Autowired

@@ -1,4 +1,4 @@
-package com.spring.web.ch8_6;
+package com.spring.web.mongodb;
 
 import com.spring.dao.ch8_6.MongoPersonRepository;
 import com.spring.entity.ch8_6.Location;
@@ -39,7 +39,7 @@ public class DataController {
     //测试方法名查询
     @RequestMapping("/q1")
     public MongoPerson q1(String name){
-        return mongoPersonRepository.fingByName(name);
+        return mongoPersonRepository.findByName(name);
     }
 
     //测试@query查询

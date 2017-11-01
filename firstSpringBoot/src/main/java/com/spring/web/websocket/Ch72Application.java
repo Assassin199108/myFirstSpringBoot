@@ -1,4 +1,4 @@
-package com.spring.web.ch7;
+package com.spring.web.websocket;
 
 import com.spring.entity.ch7.Person;
 import org.springframework.boot.SpringApplication;

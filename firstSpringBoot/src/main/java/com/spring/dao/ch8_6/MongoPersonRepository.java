@@ -12,7 +12,7 @@ import java.util.List;
 public interface MongoPersonRepository extends MongoRepository<MongoPerson,String> {
 
     //支持方法名查询
-    MongoPerson fingByName(String name);
+    MongoPerson findByName(String name);
 
     //支持@Query查询,查询参数构造JSON字符串即可
     @Query("{'age' : ?0}")

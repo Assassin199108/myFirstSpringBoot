@@ -338,3 +338,34 @@ day 20
                     MongoAutoConfiguration
                     MongoDataAutoConfiguration
                 配置文件:MongoProperties
+                
+                e:继承语法
+                如果想创建一个数据库名称为 <mydb>, 那么 use DATABASE 语句应该如下
+                use mydb
+                
+                要检查当前选择的数据库使用命令 db
+                
+                如果想查询数据库列表，那么使用命令 show dbs.
+                
+                所创建的数据库（mydb）不存在于列表中。要显示的数据库，需要至少插入一个文档进去
+                db.movie.insert({"name":"yiibai tutorials"})
+                
+                删除数据库
+                MongoDB db.dropDatabase() 命令用于删除现有的数据
+                
+                创建集合
+                db.createCollection(name, options) 用于创建集合
+                
+                删除集合
+                MongoDB 的 db.collection.drop() 用于从数据库中删除集合
+                
+                insert()命令的基本语法如下：
+                db.COLLECTION_NAME.insert(document)
+                
+                查询文档
+                要从集合查询MongoDB数据，需要使用MongoDB的 find()方法
+                
+                find() 方法将在非结构化的方式显示所有的文件。 如果显示结果是格式化的，那么可以用pretty() 方法。
+                db.mycol.find().pretty()
+                
+                

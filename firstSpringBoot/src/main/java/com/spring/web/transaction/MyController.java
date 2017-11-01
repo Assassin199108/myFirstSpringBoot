@@ -1,4 +1,4 @@
-package com.spring.web.ch8_4;
+package com.spring.web.transaction;
 
 import com.spring.entity.ch8.Person;
 import com.spring.service.ch8_4.DemoService;
@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
  * Created by wangwei on 2017/10/30.
  */
 @RestController
+@RequestMapping("/transaction")
 public class MyController {
 
     @Autowired

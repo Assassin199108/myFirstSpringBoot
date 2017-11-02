@@ -1,6 +1,6 @@
 package com.spring.web.cache;
 
-import com.spring.entity.ch8.Person;
+import com.spring.entity.oracle.Person;
 import com.spring.service.ch8_4.DemoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

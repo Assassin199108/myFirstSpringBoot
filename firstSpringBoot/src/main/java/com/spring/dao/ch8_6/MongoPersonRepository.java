@@ -1,6 +1,6 @@
 package com.spring.dao.ch8_6;
 
-import com.spring.entity.ch8_6.MongoPerson;
+import com.spring.entity.mongodb.MongoPerson;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
 

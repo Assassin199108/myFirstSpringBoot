@@ -1,6 +1,6 @@
 package com.spring.service.ch8_4;
 
-import com.spring.entity.ch8.Person;
+import com.spring.entity.oracle.Person;
 
 /**
  * Created by wangwei on 2017/10/30.

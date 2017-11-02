@@ -1,8 +1,7 @@
 package com.spring.dao.ch8_2;
 
 import com.spring.dao.CustomRepository;
-import com.spring.entity.ch8.Person;
-import org.springframework.data.repository.query.Param;
+import com.spring.entity.oracle.Person;
 
 import java.util.List;
 

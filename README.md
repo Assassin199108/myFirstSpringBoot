@@ -368,4 +368,110 @@ day 20
                 find() 方法将在非结构化的方式显示所有的文件。 如果显示结果是格式化的，那么可以用pretty() 方法。
                 db.mycol.find().pretty()
                 
+day 21
+
+        一、Redis
+            Spring对Redis的支持
+            Spring Data Redis
+            为我们提供了RedisTemplate和StringRedisTemplate两个模板来进行数据操作
+                其中StringRedisTemplate对键值都是字符型的数据进行操作
                 
+            常用方法 (对数据访问)
+            opsForValue
+            opsForList
+            opsForSet
+            opsForZSet
+            opsForHash
+            
+            ****原理****
+            当我们的数据存储到Redis的时候，我们的Key和Value都是通过Spring提供的Serializer序列化到数据库
+            默认使用JdkSerializationRedisSerializer(二进制形式存储的数据)
+            
+        二、Spring Boot的支持
+            包路径：org.springframework.boot.autoconfigure.redis
+            自动配置类RedisAutoConfiguration
+            默认为我们配置了(JedisConnectionFactory、RedisTemplate、StringRedisTemplate)
+            属性配置类RedisProperites
+            
+            添加Jar包依赖
+            spring-boot-starter-redis
+            
+            实体类必须实现序列化，并且有个空构造函数 Jackson做序列化需要一个空构造
+            
+            
+        三、Spring boot 配置的数据存储序列不雅观 ，我们自定义序列存储
+            采用value序列化 Jackson2JsonRedisSerializer
+            设置键Key序列化采用StringRedisSerializer
+            在配置文件中配置 重新配置bean RedisTemplate
+            
+            
+day22
+        
+        一、Spring Security
+            安全框架的两个重要概念：认证(Authentication)和授权(Authorization)
+            认证 确认用户可以访问当前系统
+            授权 确认用户在当前系统下拥有的权限
+            
+        二、配置
+            1:Spring Security为我们提供了多个过滤器实现安全功能，我们只需之策DelegatingFilterProxy过滤器
+            我们只需要继承AbstractWebApplicationInitializer抽象类即可，该类实现了WebApplicationinitializer接口
+            它为我们注册了DelegatingFilterProxy
+        
+            2:开启安全监测 与 MVC类似 添加注解@EnableWebSecurity 并继承WebSecurityConfigurerAdapter
+            
+        三、用户认证
+            重写configure(AuthenticationManagerBuilder auth)
+                auth查询各种用户
+                1:内存用户
+                    inMemoryAuthentication()
+                2:JDBC用户
+                    auth.jdbcAuthentication().dataSource(source);
+                3:通用用户 自定义一个service实现UserDetailService接口
+                    并在configure注册 auth.userDetailService(上类的 bean);
+                    
+        四、请求授权
+            重写configure(HttpSecurity http)
+                1:antMatchers:使用Ant风格的路径匹配
+                2:regexMatchers：使用正则表达式匹配路径
+        
+            
+        五、Spring Boot的支持
+            配置包:org.springframework.boot.autoconfigure.security
+            自动配置类SecurityAutoConfiguration
+            自配属性类SecurityProperties
+            
+            1、自动配置内存中用户 账号为user 密码程序启动出现
+            2、忽略/css/、/images/、/**/favicon.ico等静态文件
+            3、自动配置securityFilterChainRegistration的Bean
+            
+            自定义扩展的时候我们主需要继承WebSecurityConfigurerAdapter即可
+            
+            需要导入jar包spring-boot-starter-security
+            
+ 
+day 23
+        
+        一、异步消息
+            概念：消息代理和目的地
+            1：点对点式(一个发送者，一个接受者)
+            2：发布/订阅
+            
+        二、企业级消息代理
+            JMS即Java消息服务
+            ActiveMQ、HornetQ是一个JMS消息代理的实现
+            
+            AMQP是消息代理的规范、不仅兼容JMS、还支持跨语言和平台。
+            主要实现由RabbitMQ
+            
+        三、Spring的支持
+            JMS：spring-jms
+            AMQP:Spring-rabbit
+            
+            需要ConnectionFactory实现来连接消息代理
+            分别体用了JmsTemplate和RabbitTemplate来发送消息
+            
+            提供了@JmsListener @RabbitListener注解在方法上监听消息代理发布的消息
+            通过@EnableJms、@EnableRabbit开启支持
+            
+        四、Spring Boot的支持
+            配置包路径：org.springframework.boot.autoconfigure.jms

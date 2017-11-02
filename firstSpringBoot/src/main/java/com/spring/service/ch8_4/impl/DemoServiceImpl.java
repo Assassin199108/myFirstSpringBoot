@@ -1,7 +1,7 @@
 package com.spring.service.ch8_4.impl;
 
 import com.spring.dao.ch8.PersonRepository;
-import com.spring.entity.ch8.Person;
+import com.spring.entity.oracle.Person;
 import com.spring.service.ch8_4.DemoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;

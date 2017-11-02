@@ -1,8 +1,8 @@
 package com.spring.web.mongodb;
 
 import com.spring.dao.ch8_6.MongoPersonRepository;
-import com.spring.entity.ch8_6.Location;
-import com.spring.entity.ch8_6.MongoPerson;
+import com.spring.entity.mongodb.Location;
+import com.spring.entity.mongodb.MongoPerson;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

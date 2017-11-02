@@ -1,7 +1,7 @@
 package com.spring.web.myrepository;
 
 import com.spring.dao.ch8_2.PersonRepositoryByMyself;
-import com.spring.entity.ch8.Person;
+import com.spring.entity.oracle.Person;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

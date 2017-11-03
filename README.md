@@ -473,5 +473,129 @@ day 23
             提供了@JmsListener @RabbitListener注解在方法上监听消息代理发布的消息
             通过@EnableJms、@EnableRabbit开启支持
             
-        四、Spring Boot的支持
+        四、Spring Boot对JMS支持
             配置包路径：org.springframework.boot.autoconfigure.jms
+            JMS实现由ActiveMQ、HornetQ、Artemis
+            1：连接Bean：ActiveMQConnectionFactory
+            并通过"spring.activemq"为前缀配置ActiveMQ的连接属性
+            2：Template Bean：JmsTemplate并开启了注解支持@EnableJms
+            
+        五：Spring Boot对AMQP支持
+            配置包路径：org.springframework.boot.autoconfigure.amqp
+            1：连接bean：connectionFactory
+            2：template bean：RabbitTemplate
+            3：自动开启了@EnableRabbit
+            4：配置：spring.rabbitmq来配置RabbitMQ
+            
+        六、JMS实战
+            1：安装ActiveMQ
+            2：内嵌ActiveMQ到程序，依赖
+            <dependency>
+                activemq-broker
+            </dependency>
+            3:依赖jms&activemq-client
+            <dependency>
+                spring-jms
+            </dependency>
+            <dependency>
+                activemq-client
+            </dependency>
+            4:配置消息代理地址
+                spring.activemq.broker-url
+            5:消息发送方定义消息发送
+                实现MessageCreator接口,重新createMessage方法
+                Spring Boot为我们提供了CommandLineRunner接口，用于程序启动后执行的代码，通过重写其run方法执行
+                通过JmsTemplate发送消息
+                
+            6:消息监听(@JmsListener)
+                是Spring4.1为我们提供的一个新特性，用来简化JMS开发。我们只需要在这个注解的属性destination指定要监听的目的地
+                即可接受该目的地发送的消息。
+                
+        七、RabbitMQ实战
+            1、安装RabbitMQ
+            2、导入jar包依赖
+                spring-boot-starter-amqp
+            3、消息发送者
+                实现MessageCreator接口,重新createMessage方法
+                Spring Boot为我们提供了CommandLineRunner接口，用于程序启动后执行的代码，通过重写其run方法执行
+                通过RabbitTemplate发送消息    
+            4、消息监听(@RabbitListener)
+                我们只需要在这个注解的属性queues指定要监听的目的地
+                
+        八、Spring Integration入门
+            1：用途
+                解决不同系统之家交互的问题，通过异步消息驱动哎达到系统交互时系统之间的松耦合
+            2：Message（数据）
+                a:消息体：任何数据类型：XML、JSON、Java
+                b:消息头：元数据 ，解释消息体的内容
+                
+            3：Channel(通道)
+                发送方发送到通道，接收方从通道接收
+                1：顶级接口MessageChannel
+                    |
+                    |--PollableChannel:轮询获得消息
+                    |
+                    |--SubscribableChannel:发送消息给订阅了MessageHandler订阅者
+                    
+                2:常用消息通道 实现类
+                    PublishSubscribeChannel：允许广播消息给所有订阅者
+                    QueueChannel：允许消息接收者轮询获得消息，可用队列接收消息，队列容量可配置)
+                    PriorityChannel:可按照优先级将数据存储到队列，依据消息的消息头属性
+                    RendezvousChannel:确保每一个接收者都接收到消息后再发送消息
+                    DirectChannel(默认):运行消息发送一个订阅者，然后阻碍发送知道消息被接收
+                    ExecutorChannel可绑定一个多线程的task executor
+                    
+                3：通道拦截器(ChannelInterceptor)，用来拦截发送和接收消息的操作
+                    实现channel.addInterceptor(**);
+                
+            4:Message EndPoint
+                消息端点(Message Endpoint)是真正处理消息的组件，还可控制通道的录音
+                1:Channel Adapter(通道适配器)
+                    是一种连接外部系统或传输协议的端点，可以分为入站(inbound)和出站(outbound)
+                    单向
+                    Spring Intefration内置了许多适配器
+                    常见：RabbitMQ、Feed、File、Http、WebSocket
+                    
+                2：Gateway
+                    消息网关    双向的请求/返回集成方式
+                 
+                3：Service Activator
+                    可调用Spring Bean处理消息，并将处理后的结果输出到指定的通道
+                    
+                4：Router
+                    路由可根据消息体类型、消息头值及定义好的接收表作为条件，觉得消息传递到通道
+                    
+                5：Splitter
+                    拆分器将消息拆分几个部分单独处理，返回值是一个集合或数组
+                    
+                6：Aggregator
+                    聚合器 接收一个List为参数，将多个消息合并一个消息
+                    
+                7：Enricher
+                    消息增强器主要有消息体增强器和消息头增强器
+                    
+                8、Transformer
+                    转换器对获得的消息进行一定逻辑转换处理
+                    
+                9、Bridage
+                    桥接可以简单的将两个消息通道连接起来
+                    
+            5：Spring Boot的支持
+                1：依赖添加
+                    <dependency>
+                        spring-boot-starter-integration
+                    </dependency>
+                    <dependency>
+                        spring-boot-starter-mail
+                    </dependency>
+                
+                2:另外添加Spring Integration对atom及mail的支持
+                    <dependency>
+                        spring-integration-feed
+                    </dependency>
+                    <dependency>
+                        spring-integration-mail
+                    </dependency>
+                    
+                3:读取流程
+                    

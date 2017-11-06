@@ -1,7 +1,7 @@
 package com.spring.web.transaction;
 
 import com.spring.entity.oracle.Person;
-import com.spring.service.ch8_4.DemoService;
+import com.spring.service.cache.DemoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

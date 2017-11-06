@@ -599,3 +599,72 @@ day 23
                     
                 3:读取流程
                     
+                    
+day 24
+
+        一、Spring Boot测试
+        SpringApplicationConfiguration代替contextConfiguration
+        测试类(老样子)
+        @RunWith(SpringJUnit4ClassRunner.class)
+        @SpringApplicationConfiguration(MVCApplication.class)
+        @WebAppConfiguration
+        
+        主要对象
+        MockMvc mockMvc;
+        
+        @Autowired
+        WebApplicationContext webApplicationContext;
+        初始化MockMvc
+        mockMvc = MockMvcBuilders.webAppContextSetup(webApplicationContext).build();
+        
+        
+day 25
+
+        一、应用监控
+        Spring Boot 提供了运行时的应用监控和管理的功能。我们可以通过http、JMX、SSH协议来进行操作。
+        管理端点:
+        actuator            所有EndPoint的列表，需要加入spring HATEOAS支持
+        autoconfig          当前应用的所有自动配置
+        beans               当前应用中所有的Bean信息
+        configprops         当前应用中所有的配置属性
+        dump                显示当前应用线程状态信息
+        env                 显示当前应用当前环境信息
+        health              显示当前应用监控状况
+        info                显示当前应用信息
+        metrics             显示当前应用的各项指标信息
+        mappings            显示当前使用的@RequestMapping映射路径
+        shutdown            关闭当前应用(默认是关闭的，我们可以在application.properties注册，不支持get，支持post)
+        trace               显示追踪信息（默认最新的http请求）
+        2、我们可以通过http实现应用的监控和管理
+        需要加入jar包依赖
+        <dependency>
+            spring-boot-starter-acutator
+        </dependency>
+        
+        二、自定义端点
+            我们只需要哦继承一个AbstractEndpoint的实现类，并将其注册为Bean即可
+            重写invoke方法
+            
+        三、HelthIndicator
+        Helth信息都是从ApplicationContext中所有的HelthIndicator的Bean收集的
+        DiskSpacheHealthIndicator           检测低磁盘
+        DataSourceHealthIndicator           检测DataSource连接是否能获得
+        ElasticsearchHealthIndicator        检测ElasticSeatch集群是否允许
+        HmsHealthIndicator                  检测JMS消息代理是否在运行
+        MailHealthIndicator                 检测邮件服务器是否在运行
+        MongoHealthIndicator                检测MongoDB是否在运行
+        RabbitHealthIndicator               检测RabbitMQ是否在运行
+        RedisHealthIndicator                检测Redis是否在运行
+        SolrHealthIndicator                 检测Solr是否在运行
+            1：自定义 HealthIndicator我们只需要实现HealthIndicator接口的类，并注册为Bean即可
+                重写health()方法
+                
+        三、SSH监控我们的应用
+        1、添加依赖
+        <dependency>
+            spring-boot-starter-remote-shell
+        </dependency>
+        
+        
+       
+经过25天，终于对Spring Boot有一定的了解

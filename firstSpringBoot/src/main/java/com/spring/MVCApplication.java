@@ -3,8 +3,13 @@ package com.spring;
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.spring.config.properties.endpoint.StatusEndPoint;
+import com.spring.config.properties.endpoint.StatusHealth;
 import com.spring.dao.CustomRepositoryFactoryBean;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.actuate.endpoint.Endpoint;
+import org.springframework.boot.actuate.health.Health;
+import org.springframework.boot.actuate.health.HealthIndicator;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.data.rest.RepositoryRestMvcAutoConfiguration;
@@ -63,6 +68,26 @@ public class MVCApplication extends SpringBootServletInitializer {
     //@ConditionalOnBean({EntityManagerFactoryBuilder.class,DataSource.class})
     public LocalContainerEntityManagerFactoryBean entityManagerFactory2() {
         return builder.dataSource(this.dataSource).properties(getVendorProperties(dataSource)).packages(getPackagesToScan()).jta(isJta()).build();
+    }
+
+    /**
+     * 注册访问端点bean
+     * @return
+     */
+    @Bean
+    public Endpoint<String> status(){
+        Endpoint<String> status = new StatusEndPoint();
+        return status;
+    }
+
+    /**
+     * 注册自定义 项目信息
+     * @return
+     */
+    @Bean
+    public HealthIndicator health(){
+        StatusHealth statusHealth = new StatusHealth();
+        return statusHealth;
     }
 
     private Map<String, ?> getVendorProperties(DataSource dataSource) {
